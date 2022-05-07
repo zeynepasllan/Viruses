@@ -1,0 +1,1006 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   <title>COVID-19</title>
+       <style>
+
+            body{
+           
+               overflow-x: hidden;
+
+               
+        }
+             .active2{
+               color:black;
+              
+               text-align: center;
+           }
+         .active{
+               color:white;
+               background-color: red;
+               text-align: center;
+           }
+           .active:hover{
+               color:white;
+           }
+         
+        
+           .float-right button{
+               color:white;
+               background:red ;
+           }
+           .float-right button:hover{
+                color:red;
+               background:black ;
+           }
+           .hoverrengi1 a:hover{
+               background-color:blueviolet;
+           }
+            .hoverrengi2 a:hover{
+               background-color:darkcyan;
+           }
+            .hoverrengi3 a:hover{
+               background-color:coral;
+           }
+            .hoverrengi4 a:hover{
+               background-color:darkgreen;
+           }
+           .hoverrengi11 a:hover{
+                 border-bottom: solid;
+               border-width:medium;
+               color:red;
+               
+           }
+           .hoverrengi33 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+           .hoverrengi44 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+           .hoverrengi55 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+            .hoverrengi66 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+            .dropdown:hover{
+               border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+           
+              .carousel-inner img{
+            width: 100%;
+            
+        }
+
+           .card img:hover{
+               width: 100%
+                     height: 100%;
+          object-fit:cover;
+               filter: blur(1px);
+-webkit-filter: blur(1px);
+             
+           }
+           .btn-outline-danger:hover{
+               background-color: red;
+               
+           }
+            .btn-outline-primary:hover{
+               background-color: blue;
+               
+           }
+            .btn-outline-success:hover{
+               background-color: green;
+               
+           }
+            .btn-outline-dark:hover{
+               background-color: black;
+               
+           }
+       
+           
+    </style>
+    
+ 
+    
+    
+    </head>
+<body>
+      
+   
+       <nav class="navbar navbar-expand-md " style=" background-color:black; color:white;" >
+
+       
+        <div class="collapse navbar-collapse" id="collapsenav1">
+         
+    <ul class="navbar-nav "> 
+         <div class="hoverrengi1"><a href="https://twitter.com/saglikbakanligi" target="_blank" class="btn text-white"><img src="img/tw.jpg" style="width: 20px;" height="20px;" > Twitter</a></div>
+    <div class="hoverrengi2">   <a href="https://www.facebook.com/saglikbakanligi" target="_blank" class="btn text-white"><img src="img/fcb.png" style="width: 20px;" height="20px;" > Facebook</a></div>
+       <div class="hoverrengi3"><a href="https://www.youtube.com/user/SaglikBakanligi" target="_blank" class="btn text-white"><img src="img/youtube-01.png" style="width: 20px;" height="20px;" >Youtube</a></div>
+       <div class="hoverrengi4"><a href="https://www.instagram.com/saglikbakanligi/?hl=tr" target="_blank" class="btn text-white"><img src="img/ins.png" style="width: 20px;" height="20px;" >Instagram</a></div><br>
+
+     
+ 
+            </ul>
+    </div>
+    
+          <div class="float-right">
+       <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Site içi arama...">
+        <button class="btn btn-danger" type="submit" >Arama</button></form></div>
+             <button class="navbar-toggler" style="background-color:red ; color:white;" type="button" data-toggle="collapse" data-target="#collapsenav1">
+        <span>SM</span></button>
+    </nav>
+    
+        
+    
+    
+  <nav class="navbar navbar-expand-md sticky-top" style=" background-color: azure; color:white; ">
+
+       <a class="navbar-brand  image-rendering " href="#">
+<img src="img/p.png"   height="70px" style="filter:saturate(1.2)"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenav2">
+        <span class="navbar-toggler" style="background-color:red; color:white;">MENÜ</span></button>
+        <div class="collapse navbar-collapse "  id="collapsenav2">
+           
+    <ul class="navbar-nav" >
+     
+       <li class="nav-item"><a class="nav-link active" href="covid19.html">COVID-19</a></li>
+     <div class="hoverrengi33"> <li class="nav-item active2"> <div class="dropdown dropright"  >
+     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="color: black;">SALGINLAR TARİHİ</button>   
+    <div class="dropdown-menu">
+        <div class="dropdown-header">Eski Salgınlar</div>
+    <a class="dropdown-item" href="justinyenvebasi.html">Jüstinyen Vebası (MS 541-750)</a>
+    <a class="dropdown-item" href="karaolum.html">Kara Ölüm (1347-1351)</a>
+          <a class="dropdown-item" href="cicekhastaligi.html">Çiçek hastalığı (15. – 17. yüzyıllar)</a>
+        <div class="dropdown-divider"></div>
+         <div class="dropdown-header">Yeni Salgınlar</div>
+    <a class="dropdown-item" href="kolera.html">Kolera (1817-1823)</a>
+          <a class="dropdown-item" href="ispanyolgribi.html">İspanyol Gribi veya H1N1 (1918-1919)</a>
+          <a class="dropdown-item" href="hiv.html">HIV / AIDS (1981 – günümüz)</a>
+    </div></div></li></div>
+        <div class="hoverrengi44"><li class="nav-item"><a class="nav-link" href="haberler.html"><div class="text-dark"  style="text-align: center;">HABERLER</div></a></li></div>
+        <div class="hoverrengi55"><li class="nav-item"><a class="nav-link" href="videolar.html"><div class="text-dark"  style="  text-align: center;">VİDEOLAR</div></a></li> </div>
+        <div class="hoverrengi33"> <li class="nav-item active2"> <div class="dropdown dropbottom"  >
+     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">SSS</button>  
+    <div class="dropdown-menu">
+       
+    <a class="dropdown-item" href="sss.html">COVID-19 Halka Yönelik Sıkça Sorulan Sorular</a>
+    <a class="dropdown-item" href="sss2.html">COVID-19 Sağlık Personeline Yönelik Sıkça Sorulan Sorular</a>
+
+     
+    </div></div></li></div>
+            </ul>
+    </div>
+        
+    </nav>
+      
+      
+ 
+   
+
+  <div class="row text-white" style="background-image: url(img/q.jpg);
+		background-size: cover;
+                                         background-repeat: no-repeat;
+			font-family: Calibri; font-weight: bold; text-align: center; padding-top: 6px;">
+      <div class="col-sm-6 col-md-2" style="padding-top: 7px; font-size:25px;">GÜNCEL <br/>DURUM</div>
+      <div class="col-sm-6 col-md-2" style="font-size:27px; ">1.853.754<h6 style="text-align: center; font-size:14px;">Toplam <br/>Test Sayısı</h6></div>
+     <div class="col-sm-6 col-md-2" style="font-size:27px;">157.814<h6 style="text-align: center; font-size:14px;">Toplam<br/>Vaka Sayısı </h6></div>
+     <div class="col-sm-6 col-md-2" style="font-size:27px;">4.369<h6 style="text-align: center; font-size:14px;">Toplam<br/>Vefat Sayısı</h6></div>
+     <div class="col-sm-6 col-md-2" style="font-size:27px;">756<h4 style="text-align: center; font-size:14px;">Yoğun Bakım<br/> Hasta Sayısı</h4></div>
+       
+        <div class="col-sm-6 col-md-2" style="font-size:27px;">120.015<h6 style="text-align: center; font-size:14px;">İyileşen  <br/>Hasta Sayısı</h6></div>
+ 
+
+ </div>
+   
+    <div id="deneme" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+       <li data-target="#deneme" data-slide-to="0"></li>
+        <li data-target="#deneme" data-slide-to="1"></li>
+        <li data-target="#deneme" data-slide-to="2"></li>
+         <li data-target="#deneme" data-slide-to="3"></li>
+      
+      </ul>
+    
+        
+       
+        
+        
+        
+        
+        
+        
+        
+    <div class="carousel-inner">
+       <div class="carousel-item active"><img src="img/w.jpg" width="500px" height="350px"> <div class="carousel-caption" style="color:white; height: 200px;"><h1><strong>Enfeksiyon Kontrol Önlemleri</strong></h1><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#firstmodal3">Ayrıntılı Bilgi İçin Tıklayınız</button></div> <div class="modal fade" id="firstmodal3">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+            <h4 class="modal-title" style="color: red; text-align: center;">COVID-19<br><div class="renk" style="color: blue;">Sağlık Kurumlarında Enfeksiyon Kontrol Önlemleri</div><div class="renk" style="color:gray;">Güncellenme Tarihi: 02.05.2020</div></h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+         <div class="modal-body" style="color:black;"> <img src="img/saglik-bakanligi-logo.jpg" height=250px width=100% ><br><br>
+    <div class="renk" style="color: blue; font-size: 20px; font-weight: bold;"> Psikiyatri Kliniklerinde Alınması Gereken Enfeksiyon Kontrol Önlemleri</div> <br> <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">Salgın Döneminde Uygulanacak Genel Önlemler</div>
+             1. Yatan hastalara COVID-19 belirtileri ve korunma yöntemleri hakkında periyodik
+eğitimler verilmelidir.<br>
+2. Eğitimler Sağlık Bakanlığı tarafından hazırlanan ve yayımlanan rehber ve diğer
+materyaller ile uyumlu olmalıdır.<br>
+3. Yatan hastalar yemeklerini mümkünse odalarında yemeli ya da yemekhanede
+ve dinlenme alanlarında masalar ve sandalyeler arası mesafe en az 1 metre
+olacak şekilde düzenleme yapılmalıdır. Temaslı takibinin kolay yapılabilmesi
+için; yemek saatleri gruplara göre belirlenmeli ve mümkün ise aynı kişilerin aynı
+masada yemek yemeleri sağlanmalıdır.<br>
+4. Hasta ziyaretleri sınırlandırılmalı, telefonla görüşme saatleri arttırılmalıdır.<br>
+5. Hasta odaları gün içerisinde düzenli ve sık aralıklarla havalandırılmalıdır.<br>
+6. Hasta odalarında ve koridorlarda bulunan tuvaletlerde sabun, tuvalet kağıdı,
+kağıt havlu bulundurulmalı, düzenli kontrolleri sağlanmalıdır.<br>
+7. Her servis girişinde, ortak alanlarda, izolasyon odalarında çalışanların
+kontrolünde olacak şekilde alkol bazlı el antiseptiği bulundurulmalıdır.<br>
+8. Hastaların ihtiyaçları için yakınları tarafından getirilen eşyalar, servis çalışanı
+tarafından dış kapıdan teslim alınmalı, hasta yakınları servis içine alınmamalıdır.<br>
+9. Servislerde; TV izleme, alışveriş gibi aktivitelerin zamana yayılarak ve sosyal
+mesafe kurallarına uyacak şekilde kişi sayısı azaltılarak yapılması sağlanmalıdır.<br>
+10. Ortak kullanım alanları her grup değişiminden sonra havalandırılmalı, temizlik
+ve dezenfeksiyonu sağlanmalıdır.<br>
+11. Servislerde çay vb. ikramlar yapılıyor ise bu saatler sınırlandırılmalı, serviste tek
+bir personel görevlendirilmelidir.<br>
+12. Psikiyatri servisinde yatan hastalar için öncelikle temel strateji sigarayı bırakmak
+olmalıdır. Bırakmayı başaramayan servis hastalarının ise belirlenmiş saatlerde,
+kliniğin/servisin/merkezin açık alanlarını sosyal mesafeye riayet ederek
+kullanmaları, açık alanı bulunmayan yerlerde ise 4207 sayılı Kanuna uygun olarak
+belirlenmiş diğer alanlardan sırayla giriş yapacak şekilde faydalanmalıdırlar. <br><br>
+             <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">Acil Servis</div>
+1. Acil serviste psikiyatrik değerlendirme gereken COVID-19 vakaları, COVID-19
+için ayrılmış ilk değerlendirme odasına alınmalı ve ilgili bölüm bilgilendirilerek
+konsültasyonun en kısa süre içinde yapılması sağlanmalıdır.<br>
+2. Hastayı değerlendiren hekim ve hastanın ajitasyonuna müdahale etmek için
+bulunan yardımcı sağlık çalışanı için Kişisel Koruyucu Ekipman (KKE) hazır
+bulundurulmalıdır. 
+
+            <br>  <br>
+            
+        <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">Poliklinik </div>
+       1. Acil olmayan psikiyatri randevuları salgın süresince ertelenmelidir.<br>
+2. Takip gerektiren poliklinik uygulamaları sürdürülmelidir.<br>
+3. Poliklinik başvurularını azaltmak için telefon, e-mail, Skype adresleri vb. dijital
+sistemlerle hasta ve yakınlarına destek hizmeti sunma seçenekleri kullanılmalıdır.<br>
+4. Hasta kabul personeli ile başvuranlar arasında en az 1 metre mesafe olmalıdır. Bu
+alanda görevlendirilen sağlık çalışanı KKE (tıbbi maske, gözlük/yüz koruyucu)
+kullanmalıdır.<br>
+5. Polikliniğe başvuran tüm hastalara T.C. Sağlık Bakanlığı COVID-19 rehberinde
+ayaktan başvuran hastalar için önerilen kapı triyajı sorgulaması yapılmalıdır.<br>
+6. COVID-19 vakaları ve refakatçileri tıbbi maske takılarak COVID-19’la ilgili
+değerlendirmelerin yapılacağı bölüme gönderilmelidir.<br>
+7. Poliklinik girişlerine, bekleme alanlarına ve tüm polikliniklere çalışanların
+kontrolünde olmak koşulu ile alkol bazlı el antiseptiği konulabilir.<br>
+8. Poliklinik alanlarında oturma alanları azaltılmalı, oturma alanları arasında en az
+1 m mesafe sağlanmalıdır.<br>
+9. Psikiyatrik tedavide kullanılan ilaç kan düzeyleri ve ilaç yan etkilerinin laboratuvar
+takipleri sürdürülmelidir. <br>
+            <br>
+              <div class="renk" style="color: blue; font-size: 20px; font-weight: bold;"> Engelli Bakım Merkezlerinde Alınması
+Gereken Enfeksiyon Kontrol Önlemleri</div> <br>COVID-19 pandemisi kapsamında Engelli Bakım Merkezlerinde enfeksiyon bulaşma
+riskini azaltmak için önerilen korunma ve kontrol ilkeleri ile uygulamalar aşağıda
+belirtilmiştir:<br><br> <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">A. Engelli Bakım Merkezlerinde genel enfeksiyon bulaşma riskini azaltmak için
+uygulanması önerilen temel enfeksiyondan korunma ve kontrol ilkeleri</div>
+            1. Engelli bakım merkezlerinde genel yüzey temizliği ve odaların genel temizliği
+(zemin, kapı ve pencereler, vb.) günlük olarak su ve deterjanla yapılması yeterlidir.<br>
+2. Özellikle eller ile sık dokunulan yüzeylerin [kapı kolları, bataryalar, tırabzanlar, sık
+dokunulan düğmeler (asansör, aydınlatma vb), telefon ahizesi, TV kumandası]
+ve ortak kullanım alanlarındaki tuvalet ve lavaboların temizliği günde en az iki
+kez yapılmalıdır. Bu alanların temizliği için, su ve deterjan ile temizlik yapıldıktan
+sonra çamaşır suyuyla temizlik yapılmalıdır. 1/100 oranında sulandırılmış çamaşır
+suyu (Sodyum hipoklorit Cas No:7681-52-9) veya klor tablet (ürün tarifine
+göre) kullanılabilir.1/100 sulandırma için, 5 litre suya yarım küçük çay bardağı
+sodyum hipoklorit içeren çamaşır suyu (Sodyum hipoklorit Cas No: 7681-52-9)
+eklenmelidir.<br>
+3. Engelli bakım merkezlerinde odalar pencereler açılarak düzenli bir şekilde
+sık sık havalandırılmalıdır. Merkezi havalandırma sistemleri bulunan binaların
+havalandırması temiz hava sirkülasyonunu sağlayacak şekilde düzenlenmeli,
+havalandırma sistemlerinin bakımı ve filtre değişimleri üretici firma önerileri
+doğrultusunda yapılmalıdır.<br>
+4. Oda temizlenirken eldiven kullanılmalıdır. Her odanın temizliğinden hemen
+sonra eldiven çıkarılmalı ve çöp kutusuna atılmalıdır. Eldiven çıkarıldıktan sonra
+eller su ve sabunla yıkanmalı veya el antiseptiği ile ovalanmalıdır.<br>
+5. Her odanın temizlik bezleri ayrı olmalıdır.<br>
+6. Her odada pedallı ve kapaklı çöp kovası bulundurulmalıdır. Eldiven, maske, alt
+bezi gibi kişisel atıkların, ortadan kaldırılmasında malzemeler iç içe iki poşete
+konularak evsel çöpe atılmalıdır.<br>
+7. Bardak ve tabak gibi ortak kullanılan eşyalar her kullanım sonrasında su ve
+deterjanla yıkanmalı ve sonraki kullanımına kadar temiz bir ortamda saklanmalıdır.
+Mümkünse yiyecek ve içecekler tek kullanımlık kaplarda servis edilmelidir.
+
+            <br> 8. Çarşaf, havlu gibi tekstil materyalleri en az 60oC’de normal deterjan ile çamaşır
+makinasında yıkanmalıdır.<br>
+9. Engelli bakım merkezlerinde bireylerin odalarında ya da bulundukları katlarda
+yemek yemeleri sağlanması önerilir. Binanın fiziki koşullarının buna uygun
+olmaması ve yemekhanenin kullanılması durumunda, temaslı takibinin kolay
+yapılabilmesi için; yemek saatleri gruplara göre belirlenmeli ve mümkünse aynı
+kişilerin aynı masada, en az 1 metre mesafeli oturmaları sağlanmalıdır.<br>
+10. Engelli Bakım Merkezlerinde bireylerin mümkün olduğu ölçüde tek kişilik
+odalarda kalmaları sağlanmalı, sağlanamıyorsa yataklar arasında en az 1,5 metre
+mesafe bırakılmalıdır.<br>
+11. Özbakım becerilerine sahip olmayan bireylerin oda ve kişisel hijyenlerine daha
+fazla özen gösterilmelidir.<br>
+12. Engelli Bakım Merkezlerinde bireylerin kişisel hijyen malzemeleri kendilerine ait
+olmalı, ortak kullanılmamalıdır.<br>
+13. Her bir engellinin bakımı sırasında ayrı eldiven kullanılmalı ve her bakımdan
+sonra eller su ve sabun ile en az 20 saniye boyunca uygun şekilde yıkanmalıdır.
+Eğer su ve sabun bulunamazsa el antiseptiği kullanılmalıdır.<br>
+14. Temizlikte fazladan koruma sağladığına dair bilimsel kanıt bulunmaması
+nedeniyle mikroorganizmalara (bakteri, virüs, mantar vb.) karşı daha etkili olduğu
+öne sürülen birtakım özel ürünler kullanılmamalıdır.<br>
+15. Engelli bakım merkezi sakinlerinin günlük ateş ve semptom takipleri, sağlık
+personeli tarafından düzenli olarak yapılmalı ve kayıt altına alınmalıdır. <br><br>
+            
+        <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">B. Engelli Bakım Merkezleri çalışanlarına yönelik öneriler: </div>
+      1. Engelli bakım merkezlerinde çalışan personele COVID-19 enfeksiyonu ve
+korunma yolları hakkında bilgilendirme yapılmalıdır.<br>
+2. Engelli bakım merkezlerindeki çalışanların, günlük ateş ve semptom takipleri
+sağlık personeli tarafından düzenli olarak yapılmalı ve kayıt altına alınmalıdır.<br>
+3. Bireylerle sosyal mesafenin korunması, arada en az 3-4 adım mesafe bulunması
+sağlanmalıdır. Tokalaşma, sarılma gibi yakın temaslardan kaçınılmalıdır.<br>
+4. Eller sık sık su ve sabun ile en az 20 saniye boyunca uygun şekilde yıkanmalıdır.
+Eğer su ve sabun bulunamazsa el antiseptiği kullanılmalıdır. Antiseptik veya
+antibakteriyel içeren sabun kullanmaya gerek yoktur, normal sabun yeterlidir.<br>
+5. Engelli bakım merkezi sakinlerinin kişisel eşyalarına temas öncesi ve sonrası
+ellerin yıkanması veya el antiseptiği ile el temizliğinin yapılması sağlanmalıdır.<br>
+  6. Solunum yolu enfeksiyonları ile ilgili standart kişisel korunma önlemleri
+alınmalıdır.<br>
+7. Eller ile gözlere, ağıza ve buruna dokunulmamalıdır.<br>
+8. Çalışanların tıbbi maskeyi doğru kullanması sağlanmalıdır.<br>
+9. Engelli odasına giren ancak kişiye temas etmeyecek olan yemek servis
+personelinin tıbbi maske kullanması gereklidir. Yemek servisi öncesi el hijyeni
+sağlamalıdır.<br>
+10. Yemek dağıtımı esnasında engelliye veya çevresine temas olduğu durumda el
+hijyeni sağlanmalıdır.<br>
+11. Engelli bakım merkezlerinde aynı kişilerden oluşan 14 günlük vardiyalı sistem
+sürdürülmesi önerilir. Engellilerin mümkün olduğu kadar hep aynı personelden
+hizmet alması sağlanmalıdır.<br>
+12. Merkezde çalışan personel, ailesinde ya da yakın çevresinde hasta ya da temaslı
+olması durumunda merkezi haberdar etmelidir.<br>
+13. Herhangi bir solunum yolu enfeksiyonu (ateş, öksürük, solunum sıkıntısı vb.)
+bulgusu ve temaslı öyküsü olan personel 14 gün çalıştırılmamalıdır. Bu personelin
+merkeze girmesine ya da merkezde kalmasına da izin verilmemelidir.<br>
+14. Vaka çıkan kurumda COVID-19 semptomu göstermeyen ve temas öyküsü
+olmayan bireylerin kurumda kalması sağlanmalıdır.      <br><br>   
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+            </div>
+            
+        <div class="carousel-item "><img src="img/b.png" style="filter:saturate(8)" width="500px" height="350px"> <div class="carousel-caption" style="color:black;"><h1><strong>Kan Merkezlerinde Alınacak Önlemler</strong></h1><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#firstmodal2">Ayrıntılı Bilgi İçin Tıklayınız</button></div> <div class="modal fade" id="firstmodal2">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+        
+        <div class="modal-header" style="text-align: center;">
+        <h4 class="modal-title" style="color: red;">COVID-19
+            <div class="renk" style="color: blue;">Kan Merkezlerinde Alınacak Önlemler </div><div class="renk" style="color:gray;">Güncellenme Tarihi: 22.04.2020</div></h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body" style="color:black;"> <img src="img/saglik-bakanligi-logo.jpg" height=250px width=100% ><br><br>
+      Pandemik COVID-19 nedeniyle kan merkezlerinde alınacak önlemler aşağıda
+belirtilmiştir.<br><br>
+<div class="renk" style="color: blue; font-size: 20px; font-weight: bold;">Kan Bağışı</div>
+1.Bugüne kadar solunum virüsleri ve COVID-19’un kan ve kan ürünleri ile bulaştığı
+gösterilmemiş olmakla birlikte teorik bir risk söz konusudur. Kesin COVID-19
+olgularının iyileşme döneminde, vireminin ve/veya vücut sıvılarında virüs olma
+ihtimali ile ilgili mevcut belirsizlik nedeniyle semptomların sonlanmasından
+itibaren en az 28 gün sonra bağış kabul edilmelidir.<br>
+2. Kan bağışçılarının son 28 günde semptomatik soğuk algınlığı öyküsü olmamalıdır.<br>
+3. Kan bağışçıları, bağış öncesinde COVID-19 hastasıyla temas ve hastalık belirtileri
+(ateş ve boğaz ağrısı, öksürük, solunum sıkıntısı gibi solunum yolu enfeksiyonları
+belirti ve bulguları) açısından sorgulanmalıdır.<br>
+4. Ateş, boğaz ağrısı, öksürük ve solunum sıkıntısı gibi solunum yolu enfeksiyonu
+belirti ve bulguları olan hastalardan bağış kabul edilmemelidir.<br>
+5. Kan bağışından 48 saat sonra solunum yolu enfeksiyonları belirti ve bulguları
+gösteren hastaların merkezi bilgilendirmesi istenmeli veya telefonla
+sorgulanmalıdır. Bu durumda bağışlanan kan ürünleri imha edilmelidir.<br>
+6. Donörün COVID-19 ile uyumlu bağış sonrası gelişen hastalıkları ve kanıtlanmış
+olgu ile temasını bildirmek için bir sistem oluşturulmalıdır. Hastalığın başlangıcının
+veya temasın 14-28 günleri arasında toplanan kan ve kan ürünleri bilinmelidir.<br>
+7. COVID-19 hastasıyla temas etmiş edenlerden, 28 gün süreyle (14 günlük
+maksimum kuluçka süresinin iki katı) hücre ve doku bağışı kabul edilmemelidir.<br>
+8. Bağışı ertelenen bağışçılara, 28 gün boyunca potansiyel bağışçılarla temas
+etmemesi konusunda bilgilendirme yapılmalıdır.
+            <br><br>
+            <div class="renk" style="color: blue; font-size: 20px; font-weight: bold;">Kan Merkezinde Enfeksiyon Kontrolü</div><br>
+        <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">Sağlık çalışanı</div>
+        1. Çalışan sayısı mümkünse azaltılmalıdır.<br>
+2. Sağlık çalışanlarına COVID-19 belirtileri ve korunma yöntemleri hakkında
+periyodik eğitimler verilmeli ve verilen eğitimler kayıt altına alınmalıdır. <br>
+            3. Eğitimler, Sağlık Bakanlığı tarafından hazırlanan ve yayımlanan rehber ve diğer
+materyaller ile uyumlu olmalıdır.<br>
+4. Solunum sistemi belirti ve bulgusu olan personel tıbbi maske takılarak COVID-19
+açısından değerlendirilmek üzere COVID-19 rehberinde belirtildiği şekilde bir
+pandemi hastanesine gönderilmelidir.<br>
+5. Kan merkezlerinde çalışan personelde COVID-19 pozitifliği saptanması
+durumunda, diğer personelin yönetimi Teması Olan Sağlık Çalışanlarının
+Değerlendirilmesi algoritmasına göre ilgili bölüm tarafından planlanır. Hasta
+personel ile yakın temaslılar saptanıp İl Sağlık Müdürlüğünce takip edilir. Merkez,
+hastalara hizmet vermeye devam eder.<br>
+6. Sağlık çalışanı ve donörler arasında en az 1 metre mesafe bulunması sağlanmalı,1
+m’den yakın mesafede yaklaşmak gerekirse tıbbi maske dışında sağlık çalışanı
+KKE (önlük, eldiven ve gözlük/yüz koruyucu) kullanmalıdır. Kişisel koruyucu
+ekipmanlar giyilirken ve çıkartılırken kurallara uygun bir şekilde sırayla giymeye
+(önlük, maske, gözlük, yüz koruyucusu ve eldiven) ve çıkarmaya (eldiven,
+gözlük, yüz koruyucu, önlük, maske) dikkat edilmelidir. Özellikle maskenin
+odadan çıkınca, en son çıkartılması ve sonrasında el hijyeni uygulanması ihmal
+edilmemelidir.<br>
+7. Eldivenin doğru kullanımı çok önemlidir. Değiştirilmeyen eldivenler
+kontaminasyona yol açacağından hasta çevresine dokunmamaya ve el hijyenine
+özen gösterilmelidir. Eldiven giymeden önce ve çıkardıktan sonra el hijyeni
+sağlanmalıdır. El hijyeni en az 20 saniye süreyle su ve sabunla el yıkama ya da
+alkol içeren el antiseptiği ile el ovalama ile sağlanabilir.<br>
+8. Kullanılan eldiven, önlük, tıbbi maske ve tek kullanımlık yüz koruyucu tıbbi atık
+kutusuna atılmalıdır. Tek kullanımlık olmayan malzeme (gözlük ve yüz koruyucu)
+%70’lik alkol ile dezenfekte edilerek tekrar kullanılabilir. Çok kullanımlık tekstil
+önlükler yıkanıp tekrar kullanılabilir.<br>
+9. Kan merkezine gelen tüm donörler bekleme alanında her yöne aralarında en az
+1 metre olacak şekilde yerleştirilmelidir. <br><br>
+            
+            
+             <div class="renk" style="color: blue; font-size: 16px; font-weight: bold;">Temizlik ve dezenfeksiyon</div>
+            1. Her donörden sonra işlem yapılan alanda temizlik ve dezenfeksiyon yapılmalıdır.<br>
+2. Temizlik özellikle elle sık temas edilen yüzeylere yoğunlaşmalıdır. Su ve
+deterjanla temizlik sonrası hastane dezenfeksiyonunda tercih edilen bir
+dezenfektan kullanılarak yüzey dezenfeksiyonu sağlanabilir. 1/100 sulandırılmış
+çamaşır suyu (Sodyum hipoklorit Cas No: 7681-52-9) ya da klor tablet (ürün
+önerisine göre) kullanılabilir. Klor bileşikleri yüzeylerde korozyon oluşturabilir
+Dayanıklı yüzeyler için kullanılması önerilen bir dezenfektandır. Hasta çıkartıları ile kirlenmiş yüzeylerde 1/10 sulandırılmış çamaşır suyu (Sodyum hipoklorit Cas
+No: 7681-52-9) ya da klor tablet (ürün önerisine göre) kullanılır. Bu amaçla %70
+lik alkol kullanılabilir. Dezenfektanın temizlenen yüzeyde en az 1 dakika kalması
+sağlanır. 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+            </div>
+     
+        <div class="carousel-item"><img src="img/3.png" width="500px" height="350px"> <div class="carousel-caption" style="color:black; height: 200px;"><h1><strong>COVID-19 Yetkilendirilmiş Tanı Laboratuvarları Listesi</strong></h1> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#firstmodal4" >Ayrıntılı Bilgi İçin Tıklayınız</button> </div><div class="modal fade" id="firstmodal4">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title"  style="color:blue;">COVID-19 Yetkilendirilmiş Tanı Laboratuvarları Listesi</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body">
+         <div class="table-responsive">
+    <table class="table table-hover table-primary table-stripped table-sm">
+        <thead>
+    <tr class="table-primary">
+        <th>
+        NO
+        
+        </th>
+        <th>İL</th>
+        <th>KURUM</th>
+        
+        
+        </tr>
+    </thead>
+        <tbody>
+    <tr class="table-success">
+        <td>1</td>
+        <td>ADANA</td>
+        <td>	
+ADANA İL SAĞLIK MÜDÜRLÜĞÜ HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+    
+      <tr class="table-info">
+        <td>2</td>
+        <td>ADIYAMAN</td>
+        <td>ADIYAMAN EĞİTİM VE ARAŞTIRMA HASTANESİ MİKROBİYOLOJİ LABORATUVARI</td>
+        
+        </tr>
+             <tr class="table-success">
+        <td>3</td>
+        <td>	
+AFYON</td>
+        <td>AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ TIP FAKÜLTESİ TIBBİ MİKROBİYOLOJİ ANABİLİMDALI</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>4</td>
+        <td>AĞRI</td>
+        <td>AĞRI DEVLET HASTANESİ PCR LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>5</td>
+        <td>	
+AKSARAY</td>
+        <td>AKSARAY EĞİTİM ARAŞTIRMA HASTANESİ MERKEZ LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>6</td>
+        <td>	
+AMASYA</td>
+        <td>AMASYA ÜNİVERSİTESİ SABUNCUOĞLU ŞEREFEDDİN EĞİTİM ARAŞTIRMA HASTANESİ</td>
+        
+        </tr>
+                <tr class="table-success">
+        <td>7</td>
+        <td>ANKARA</td>
+        <td>ANKARA ÜNİVERSİTESİ TIP FAKÜLTESİ TIBBİ MİKROBİYOLOJİ ABD</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>8</td>
+        <td>	
+ANTALYA</td>
+        <td>	
+ANTALYA İL SAĞLIK MÜDÜRLÜĞÜ HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>9</td>
+        <td>	
+ANTALYA/ALANYA</td>
+        <td>	
+ALAADDİN KEYKUBAT ÜNİVERSİTESİ ALANYA EĞİTİM ARAŞTIRMA HASTANESİ MERKEZ LABORATUVAR</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>10</td>
+        <td>ARTVİN</td>
+        <td>ARTVİN DEVLET HASTANESİ MERKEZ LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>11</td>
+        <td>AYDIN</td>
+        <td>AYDIN İL SAĞLIK MÜDÜRLÜĞÜ HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>12</td>
+        <td>	
+BALIKESİR</td>
+        <td>BALIKESİR ATATÜRK ŞEHİR HASTANESİ</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>13</td>
+        <td>BATMAN</td>
+        <td>ÖZEL BATMAN DÜNYA HASTANESİ MİKROBİYOLOJİ LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>14</td>
+        <td>	
+BAYBURT</td>
+        <td>BAYBURT HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>15</td>
+        <td>	
+BİNGÖL</td>
+        <td>BİNGÖL HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>16</td>
+        <td>BİTLİS</td>
+        <td>TATVAN DEVLET HASTANESİ MERKEZ LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>17</td>
+        <td>	
+BOLU</td>
+        <td>	
+BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ EĞİTİM VE ARAŞTIRMA HASTANESİ TIBBİ MİKROBİYOLOJİ AD</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>18</td>
+        <td>BURDUR</td>
+        <td>	
+BURDUR HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-success">
+        <td>19</td>
+        <td>	
+BURSA</td>
+        <td>BURSA İL SAĞLIK MÜDÜRLÜĞÜ HALK SAĞLIĞI LABORATUVARI</td>
+        
+        </tr>
+                  <tr class="table-info">
+        <td>20</td>
+        <td>ÇANAKKALE</td>
+        <td>ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ TIBBİ MİKROBİYOLOJİ AD.</td>
+        
+        </tr>
+    </tbody>
+    
+    </table>
+</div>
+        
+        
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+            </div>
+        <div class="carousel-item"><img src="img/w.png"  width="500px" height="350px"> <div class="carousel-caption" style="color:black;" ><h1><strong>81 İl Psikososyal Destek Hat Bilgileri</strong></h1> <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#firstmodal55" >Ayrıntılı Bilgi İçin Tıklayınız</button></div> <div class="modal fade" id="firstmodal55">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+        
+        <div class="modal-header">
+        <h4 class="modal-title" style="color: red;">81 İl Psikososyal Destek Hat Bilgileri</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+        </div>
+        <div class="modal-body"> 
+       <div class="row" style="border: solid; border-width:thin; border-color:black; color: black;">
+    <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">
+ADANA</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Dr. Ekrem Tok Ruh Sağlığı ve Hastalıkları Hastanesi</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0 322 247 25 62<br>
+0 322 239 93 25</div>
+           
+           
+       <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		Akıncılar Sağlıklı Hayat Merkezi</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0322 383 21 07 Dahili 4306</div>    
+           
+               
+       <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">ADIYAMAN
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Yenimahalle SHM</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0416 227 18 62</div>   
+          
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Kahta İlçe Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0416 725 50 80/Dahili: 133</div>   
+           
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">AFYONKARAHİSAR
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Afyonkarahisar İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0272 214 49 39<br>
+0272 215 12 29/1323<br>
+0272 229 19 29</div>   
+           
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">AĞRI
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		Ağrı İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">0472 215 11 84/Dahili 10 24</div>   
+           
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">AMASYA
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Amasya İl Valiliği</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	112</div>   
+           
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">ANKARA
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Sincan SHM</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0312 263 97 28</div>   
+           
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		Kaletepe SHM</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">0312 346 36 04</div>   
+           
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">ANTALYA
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Antalya İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0242 503 45 66</div>   
+           
+           <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">ARTVİN
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Artvin İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		0466 212 95 16<br>
+0466 212 95 02</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">AYDIN	
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Aydın İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0 256 213 50 00-01/Dahili: 1315-1316</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">BALIKESİR
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		Gönen Devlet Hastanesi</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		0266 762 18 28/1502</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Altıeylül 1 Nolu SHM</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0266 245 01 74-75/1175<br>
+0266 243 03 60</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">BİLECİK
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Bilecik İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">		0228 212 20 30/Dahili 1290-1291-1292<br>
+0228 212 10 14</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">BİNGÖL
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">Bingöl İl Sağlık Müdürlüğü</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0533 084 27 46</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">BİTLİS
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; ">	Bitlis Merkez SHM</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0434 226 42 42</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Tatvan SHM </div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">0434 826 10 94</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black; background-color:darkred; color:white;">BOLU
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	Bolu SHM</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	0374 217 44 14</div>   
+            <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">
+</div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">	BAİBÜ Ruh Sağlığı ve Hastalıkları Eğitim ve Araştırma Hastanesi    </div>
+     <div class="col-sm-6 col-md-4" style="border: solid; border-width:thin; border-color:black;">0374 275 11 44</div>   
+   
+           
+ </div>
+    <br>
+        
+        
+        </div>
+        <div class="modal-footer">
+         <button type="button" class="btn btn-danger" data-dismiss="modal">Kapat</button>
+        
+        
+        </div>
+        </div></div></div>
+            </div>
+       
+       <a class="carousel-control-prev" href="#deneme" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+              </a>
+         <a class="carousel-control-next" href="#deneme" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+              </a>
+       
+       
+       
+       </div>
+    
+    </div>
+    <div class="container">
+    <div class="p-3"  style=" text-align: center;"> <h1  style="color:red;" >Yeni Koronavirüs Hastalığı (COVID-19)</h1>
+ <p style="color:black;">Koronavirusler (CoV), soğuk algınlığından Orta Doğu Solunum Sendromu (MERS-CoV) ve Şiddetli Akut Solunum Sendromu (SARS-CoV) gibi daha ciddi hastalıklara kadar çeşitli hastalıklara neden olan büyük bir virüs ailesidir. </p></div> 
+    
+<div class="row">
+   <div class="col-lg-3 col-md-6 col-sm-12"> <div class="card" style="height: 340px;" >
+      <a href="#"><img src="img/toplumdasalginyonetimi.jpg" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+     
+       <h4 class="card-title" style="text-align: center;">Toplumda Salgın Yönetimi</h4> </div>
+
+
+        </div>
+    </div>
+    
+        <div class="col-lg-3 col-md-6 col-sm-12">  
+            <div class="card" style="height: 340px;" > <a href="#"><img src="img/kamuvekuruluslarayonelikonlemler2.jpg" style="background-color: beige; width: 100%; height: 200px;box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+        
+       <h4 class="card-title" style="text-align: center;">Kurum ve Kuruluşlara Enfeksiyon Önlemleri</h4> 
+    
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div></div>
+        <div class="col-lg-3 col-md-6 col-sm-12"> <div class="card" style="height: 340px;">
+            <a href="#"> <img src="img/nedir.jpg" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+     
+       <h4 class="card-title" style="text-align: center;">COVID-19 Nedir?</h4> 
+  
+
+        
+        </div>
+    
+    </div></div>
+        <div class="col-lg-3 col-md-6 col-sm-12">  
+            <div class="card" style="height: 340px;" > <a href="#"><img src="img/en-3.png" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+        
+       <h4 class="card-title" style="text-align: center;">COVID-19 English Document</h4> 
+ 
+        
+        </div>
+    
+
+    
+   
+    </div></div>
+    
+
+    </div><br>
+  
+    
+    
+    <div class="row">
+   <div class="col-lg-3 col-md-6 col-sm-12"> <div class="card" style="height: 340px;" >
+      <a href="#"><img src="img/x.jpg" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000; "></a>
+    <div class="card-body">
+     
+       <h4 class="card-title" style="text-align: center;">Sağlık Kurumlarında
+Enfeksiyon Kontrol Önlemleri
+</h4> </div>
+
+
+        </div>
+    </div>
+    
+        <div class="col-lg-3 col-md-6 col-sm-12">  
+            <div class="card" style="height: 340px;" > <a href="#"><img src="img/x2.jpg" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+        
+       <h4 class="card-title" style="text-align: center;">Sağlık Kurumlarında
+Enfeksiyon Kontrol Önlemleri
+</h4> 
+    
+    
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div></div>
+        <div class="col-lg-3 col-md-6 col-sm-12"> <div class="card" style="height: 340px;">
+            <a href="#"> <img src="img/x3.jpg" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+     
+       <h4 class="card-title" style="text-align: center;">Çalışma Rehberi
+Afişleri</h4> 
+  
+
+        
+        </div>
+    
+    </div></div>
+        <div class="col-lg-3 col-md-6 col-sm-12">  
+            <div class="card" style="height: 340px;" > <a href="#"><img src="img/x4.png" style="background-color: beige; width: 100%; height: 200px; box-shadow:3px 2px 5px 1px #ff0000;"></a>
+    <div class="card-body">
+        
+       <h4 class="card-title" style="text-align: center;">(الأمراض التاجية الجديدة (العربية
+(COVID-19)</h4> 
+ 
+        
+        </div>
+    
+
+    
+   
+    </div></div>
+    
+
+    </div>
+    
+    <br>
+   
+    
+    
+     <div class="row">
+
+        
+ 
+        <div class="col-sm-12 col-md-6"  style="background-color:black; border-radius: 10px 10px 10px 10px;">
+        <video  poster="img/sd.jpg" width="100%" height="320" controls="controls" >
+  <source src="img/video.mp4" type="video/mp4" />
+  <source src="video.ogg" type="video/ogg" />
+  Tarayıcınız video etiketini desteklemiyor.
+</video>
+
+        </div>   
+         
+          <div class="col-sm-12 col-md-6" style=" color:black; text-align: center; background-color:azure; border-radius: 10px 10px 10px 10px;"> <h1>COVID-19 Videolar</h1> <br>
+              
+             <a href="videolar.html" target="_blank" class="btn btn-outline-danger">Diğer Videolara Ulaşmak İçin Tıklayınız.</a> <br><br>
+               <a href="#" class="btn btn-outline-primary">Santral Karşılama Anonsunu İndirmek İçin Tıklayınız.</a> <br> <br>
+             <a href="#" class="btn btn-outline-success">Radyo Spotlarını İndirmek İçin Tıklayınız.</a>  <br><br>
+             <a href="#" class="btn btn-outline-dark">Yeşilay Radyo Spotlarını İndirmek İçin Tıklayınız.</a>  
+            
+            
+              
+              
+              
+              
+              
+              
+              
+    </div>
+  
+    
+  </div>
+    
+</div><br>
+    <div class="d2 fixed-bottom"; style="text-align: end;">
+
+       <a href="#" class="btn" style="background-color: red; color:white;">Yukarı↑</a>
+
+
+<br>
+        </div>
+<div class="p-3 bg-dark" >
+               <h4><div class="text-center">©2020. All rights reserved. Design by | <strong style="color: white;">Zeynep</strong></div></h4>
+			 </div>
+        
+ 
+    
+ 
+    
+   
+   
+   
+  
+    
+    
+    
+    </body>
+</html>

@@ -1,0 +1,1216 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fontawesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   <title>HABERLER</title>
+       <style>
+
+            body{
+                background-color:beige;
+         
+          
+        }
+         .active{
+               color:white;
+               background-color: red;
+               text-align: center;
+           }
+           .active:hover{
+               color:white;
+           }
+        
+           .float-right button{
+               color:white;
+               background:red ;
+           }
+           .float-right button:hover{
+                color:red;
+               background:black ;
+           }
+           .hoverrengi1 a:hover{
+               background-color:blueviolet;
+           }
+            .hoverrengi2 a:hover{
+               background-color:darkcyan;
+           }
+            .hoverrengi3 a:hover{
+               background-color:coral;
+           }
+            .hoverrengi4 a:hover{
+               background-color:darkgreen;
+           }
+             .hoverrengi22 a:hover{
+                 border-bottom: solid;
+               border-width:medium;
+               color:red;
+               
+           }
+           .hoverrengi33 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+           .hoverrengi44 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+           .hoverrengi55 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+            .hoverrengi66 a:hover{
+              border-bottom: solid;
+               border-width:medium;
+               color:red; 
+           }
+            .row button img{
+              width: 250px; 
+               height: 200px; 
+           }
+           .row button img:hover{
+               width: 270px;
+               height: 220px;
+           }
+            .carousel-inner img{
+            width: 100%;
+            
+        }
+               
+          
+         
+.bg-img {
+ /* The image used */
+background-image: url("img/m.jpg");
+ /* Control the height of the image */
+min-height: 380px;
+ /* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+  
+}
+/* Add styles to the form container */
+.yorum container {
+position: absolute;
+left: 0;
+margin: 20px;
+max-width: 300px;
+padding: 16px;
+background-color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+
+outline: none;
+}
+/* Set a style for the submit button */
+
+     .btn-outline-danger:hover{
+               background-color: red;
+               
+           }
+            .btn-outline-primary:hover{
+               background-color: blue;
+               
+           }
+            .btn-outline-success:hover{
+               background-color: green;
+               
+           }
+            .btn-outline-warning:hover{
+               background-color: yellow;
+               
+           }    
+           
+           
+           
+           
+           
+    </style>
+    
+    
+    
+    
+    
+    </head>
+<body>
+      
+      
+       <nav class="navbar navbar-expand-md " style=" background-color:black; color:white;" >
+
+       
+        <div class="collapse navbar-collapse" id="collapsenav1">
+         
+    <ul class="navbar-nav "> 
+         <div class="hoverrengi1"><a href="https://twitter.com/saglikbakanligi" target="_blank" class="btn text-white"><img src="img/tw.jpg" style="width: 20px;" height="20px;" > Twitter</a></div>
+    <div class="hoverrengi2">   <a href="https://www.facebook.com/saglikbakanligi" target="_blank" class="btn text-white"><img src="img/fcb.png" style="width: 20px;" height="20px;" > Facebook</a></div>
+       <div class="hoverrengi3"><a href="https://www.youtube.com/user/SaglikBakanligi" target="_blank" class="btn text-white"><img src="img/youtube-01.png" style="width: 20px;" height="20px;" >Youtube</a></div>
+       <div class="hoverrengi4"><a href="https://www.instagram.com/saglikbakanligi/?hl=tr" target="_blank" class="btn text-white"><img src="img/ins.png" style="width: 20px;" height="20px;" >Instagram</a></div><br>
+
+     
+ 
+            </ul>
+    </div>
+    
+          <div class="float-right">
+       <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2"  placeholder="Site içi arama...">
+        <button class="btn btn-danger" type="submit" >Arama</button></form></div>
+             <button class="navbar-toggler" style="background-color:red ; color:white;" type="button" data-toggle="collapse" data-target="#collapsenav1">
+        <span>SM</span></button>
+    </nav>
+    
+        
+    
+    
+  <nav class="navbar navbar-expand-md sticky-top" style=" background-color: azure; color:white; ">
+
+       <a class="navbar-brand  image-rendering " href="#">
+<img src="img/p.png"   height="70px" style="filter:saturate(1.2)"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenav2">
+        <span class="navbar-toggler" style="background-color:red; color:white;">MENÜ</span></button>
+        <div class="collapse navbar-collapse "  id="collapsenav2">
+           
+    <ul class="navbar-nav" >
+     
+        <div class="hoverrengi44"> <li class="nav-item"><a class="nav-link " href="covid19.html"><div class="text-dark"  style="text-align: center;">COVID-19</div></a></li></div>
+     <div class="hoverrengi33"> <li class="nav-item "> <div class="dropdown dropright">
+     <button type="button" class="btn dropdown-toggle " data-toggle="dropdown" style="color:black;">SALGINLAR TARİHİ</button>   
+    <div class="dropdown-menu">
+        <div class="dropdown-header">Eski Salgınlar</div>
+    <a class="dropdown-item" href="justinyenvebasi.html">Jüstinyen Vebası (MS 541-750)</a>
+    <a class="dropdown-item" href="karaolum.html">Kara Ölüm (1347-1351)</a>
+          <a class="dropdown-item" href="cicekhastaligi.html">Çiçek Hastalığı (15. – 17. yüzyıllar)</a>
+        <div class="dropdown-divider"></div>
+         <div class="dropdown-header">Yeni Salgınlar</div>
+    <a class="dropdown-item" href="kolera.html">Kolera (1817-1823)</a>
+          <a class="dropdown-item" href="ispanyolgribi.html">İspanyol Gribi veya H1N1 (1918-1919)</a>
+          <a class="dropdown-item" href="hiv.html">HIV / AIDS (1981 – günümüz)</a>
+    </div></div></li></div>
+        <div class="hoverrengi44"><li class="nav-item active"><a class="nav-link" href="haberler.html"><div class="text-white"  style="text-align: center;">HABERLER</div></a></li></div>
+        <div class="hoverrengi55"><li class="nav-item"><a class="nav-link" href="videolar.html"><div class="text-dark"  style="  text-align: center;">VİDEOLAR</div></a></li> </div>
+        <div class="hoverrengi33"> <li class="nav-item"> <div class="dropdown dropbottom"  >
+     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" style="color: black;">SSS</button>   
+    <div class="dropdown-menu">
+       
+    <a class="dropdown-item" href="sss.html">COVID-19 Halka Yönelik Sıkça Sorulan Sorular</a>
+    <a class="dropdown-item" href="sss2.html">COVID-19 Sağlık Personeline Yönelik Sıkça Sorulan Sorular</a>
+
+     
+    </div></div></li></div>
+            </ul>
+    </div>
+        
+    </nav>
+  
+    <div class="container">
+        <div class="container">
+      <div class="row text-white" style="background-image: url(img/q.jpg);
+		background-size: cover;
+                                         background-repeat: no-repeat;
+	font-family: Calibri; font-weight: bold; text-align: center; padding-top: 6px;">
+      <div class="col-sm-6 col-md-2" style="padding-top: 7px; font-size:25px;">GÜNCEL <br/>DURUM</div>
+      <div class="col-sm-6 col-md-2" style="font-size:27px; ">1.853.754<h6 style="text-align: center; font-size:14px;">Toplam <br/>Test Sayısı</h6></div>
+     <div class="col-sm-6 col-md-2" style="font-size:27px;">157.814<h6 style="text-align: center; font-size:14px;">Toplam<br/>Vaka Sayısı </h6></div>
+     <div class="col-sm-6 col-md-2" style="font-size:27px;">4.369<h6 style="text-align: center; font-size:14px;">Toplam<br/>Vefat Sayısı</h6></div>
+     <div class="col-sm-6 col-md-2" style="font-size:27px;">756<h4 style="text-align: center; font-size:14px;">Yoğun Bakım<br/> Hasta Sayısı</h4></div>
+       
+        <div class="col-sm-6 col-md-2" style="font-size:27px;">120.015<h6 style="text-align: center; font-size:14px;">İyileşen  <br/>Hasta Sayısı</h6></div>
+ 
+</div>
+ </div>
+      
+ <div class="jumbotron" style=" background-image: url(img/h.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+     <div class="p-3 col-lg-12 col-md-12 col-sm-12" >
+          <h2 style="background-color: darkred; font-weight: bold; font-family: Kristen ITC; color:white; text-align: center;">SON DAKIKA VE DAHA FAZLASI</h2></div> <br>
+     
+     <div class="row justify-content-center">
+                 <div class="col-lg-12 col-md-12 col-sm-12" style="text-align: center;">   <button type="button" class="btn" data-toggle="modal" data-target="#firstmodal"> <img src="img/haber1.jpg" style="background-color: beige;
+"><p style="background-color: darkred; color: white;">KORONAVİRÜS</p>  </button>      <div class="modal fade" id="firstmodal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">SON DAKİKA! Komşuda ilginç <u>koronavirüs</u> gelişmesi! Kimse beklemiyordu...</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p style="color:cadetblue; font-weight: bold; ">Tüm dünyaya akıllara durgunluk veren bir hızla yayılım gösteren <u style="color: black;">corona virüsü</u> ile ilgili yurtta ve dünyada son dakika gelişmeleri yaşanmaya devam ederken komşu ülke <u style="color: black;">Bulgaristan</u>'da flaş bir olay yaşandı. Bulgaristan Parlamentosunda yaşanan olayda Volya-İrade Partisi Başkanı Veselin Mareşki'nin yaptığı hareket ülke gündeminde bomba etkisi yarattı. Mareşki tarafından yapılan açıklamadaki o detay ise mecliste bulunanları şaşkına çevirdi. İşte son dakika <u style="color: black;">coronavirüs</u> haberine ilişkin tüm detaylar ile yurt ve dünyadan gelişmeler…</p>
+        <img src="img/haber1.jpg" style="background-color: beige; width: 460px; height: 300px">
+    <p style="color:black; font-weight: bold; ">Çin'de ortaya çıkarak tüm dünyaya hızla yayılım gösteren <u>corona virüsü</u> ile ilgili son dakika haberleri ajanslara peş peşe düşmeye devam ederken komşu ülke Bulgaristan'da flaş bir koronavirüs gelişmesi yaşandı. <u>Bulgaristan</u> Meclisinde temsili bulunan Volya-İrade Partisi Başkanı Veselin Mareşki tarafından parlamento içerisinde yapılan o hareket ülke gündemine damgasını vurdu. Mareşki'nin yaptığı açıklamadaki o detay ise dikkatleri çekti. İşte son dakika haberine ilişkin tüm detaylar…</p> 
+    
+    <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 20%">%20</div>
+           <div class="progress-bar bg-danger" style="width: 80%">%80</div>
+            </div>
+           <img src="img/haber11.jpg" style="background-color: beige; width: 460px; height: 300px">
+    <h1 class=" text-black">WHO: "KORONA VİRÜSE KARŞI 20 AŞI GELİŞTİRİLDİ"</h1>
+    <p style="color:cadetblue; font-weight: bold; ">Dünya Sağlık Örgütü (WHO), korona virüse karşı dünyada 20 aşı geliştirildiğini duyurdu.</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 40%">%40</div>
+           <div class="progress-bar bg-danger" style="width: 60%">%60</div>
+          
+    </div>   
+            
+        <img src="img/haber122.jpg" style="background-color: beige; width: width: 460px; height: 300px">
+   
+    <p style="color:cadetblue; font-weight: bold; ">Korona virüsün yankıları sürerken Dünya Sağlık Örgütü (WHO), korona virüse karşı dünyada 20 aşı geliştirildiğini duyurdu.</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 60%">%60</div>
+           <div class="progress-bar bg-danger" style="width: 40%">%40</div>
+          
+    </div>      
+            
+             <img src="img/haber133.jpg" style="background-color: beige; width: 460px; height: 300px">
+    <p style="color:cadetblue; font-weight: bold; ">WHO'nun Rusya Sorumlusu Melita Vujnovic, korona virüsüne karşı 20 aşının dünya çapında geliştirilmesinin sağlandığını açıkladı.</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 80%">%80</div>
+           <div class="progress-bar bg-danger" style="width: 20%">%20</div>
+          
+    </div>    
+            
+               <img src="img/haber144.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p style="color:cadetblue; font-weight: bold; ">Vujnovic, Novosibirsk'te bulunan Rus vektör biyoteknoloji merkezi tarafından oluşturulan bir aşının testlerinin de başladığını söyledi.</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 100%">%100</div>
+           <div class="progress-bar bg-danger" style="width: 0%">%0</div>
+          
+    </div> 
+ 
+         </div>   
+  
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+     </div>
+  
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal2"> <img src="img/haber2.jpg" style="background-color: beige;  "><p style="background-color: darkred; color: white;">KORONAVİRÜS</p></button> <div class="modal fade" id="firstmodal2">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">SON DAKİKA! Komşuda ilginç <u>koronavirüs</u> haberi: <u>İtalyan</u> doktordan flaş <u>koronavirüs</u>  açıklaması! "Hazır olun..."</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p style="color:cadetblue; font-weight: bold; ">Çin'in Hubey eyaletine bağlı Vuhan kentinde ortaya çıkarak dünya üzerinde hızla yayılım gösteren corona virüsüne ilişkin son dakika gelişmeleri ajanslara peş peşe düşmeye devam ediyor. Çin'de ortaya çıkmasından bugüne kadar geçen sürede 5 bini aşkın insanın hayatını kaybetmesine neden olan ölümcül salgına ilişkin Avrupa'da salgından en çok etkilenen o ülkedeki bir uzman doktordan gelen açıklama dünyada şok etkisi yarattı. Uzman doktor tarafından yapılan açıklamadaki o detay ise dikkatleri üzerine topladı. İşte <u style="color: black;">koronavirüs</u> ile ilgili en son haberlerden tüm detaylar…</p>
+        <img src="img/haber2.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p style="color:black; font-weight: bold; ">Çin'in Vuhan kentinde ilk olarak ortaya çıkan ve başta Asya kıtası olmak üzere diğer tüm kıtalara hızla yayılan ölümcül koronavirüs enfeksiyonuna ilişkin gerek yurtta gerekse yurtdışında son dakika gelişmeleri yaşanmaya devam ediyor. Vuhan'da tespit edilen ilk enfeksiyondan bu yana 5 bini aşkın kişinin hayatının sona ermesine neden olan, bulaştığı ülkelerde ölüm saçmaya devam eden corona virüsüne ilişkin bir uzman doktorun yaptığı açıklama dünya gündemine damgasını vurdu. Doktorun açıklamasındaki detaylar dikkat çekici türdendi. İşte son dakika <u>koronavirüs</u> haberlerinden detaylar…</p>
+             <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 20%">%20</div>
+           <div class="progress-bar bg-danger" style="width: 80%">%80</div>
+          
+    </div>
+            
+          <img src="img/haber21.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p style="color:cadetblue; font-weight: bold; ">Çin'in Vuhan kentinde ortaya çıkan corona virüs salgınında vaka sayısı 150 bine yükseldi. Hayatını kaybedenlerinin sayısı ise 5 bin 614'e çıktı.</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 40%">%40</div>
+           <div class="progress-bar bg-danger" style="width: 60%">%60</div>
+          
+    </div>   
+        <img src="img/haber22.jpg" style="background-color: beige; width: 460px; height: 300px">
+   <h1 class=" text-black">CORONA İLACI İÇİN SEVİNDİRİCİ HABER</h1>
+    <p style="color:cadetblue; font-weight: bold; ">Belçika'daki Gent Üniversitesi Flaman Biyoteknoloji Enstitüsü (VIB), koronavirüse (Covid - 19) karşı koruma sağlayan bir ilacın araştırmasında önemli aşama kaydedildiğini açıkladı.</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 60%">%60</div>
+           <div class="progress-bar bg-danger" style="width: 40%">%40</div>
+          
+    </div>     
+            
+        <img src="img/haber23.jpg" style="background-color: beige; width: 460px; height: 300px">
+    <p style="color:cadetblue; font-weight: bold; ">Flaman Biyoteknoloji Enstitüsü uzmanlarından Prof. Dr. Xavier Saelens, laboratuvar ortamında Covid - 19 virüsünü etkisiz hale getirdiklerini belirterek, bunun ileriye doğru atılmış önemli bir adım olduğunu söyledi.
+
+
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 80%">%80</div>
+           <div class="progress-bar bg-danger" style="width: 20%">%20</div>
+          
+    </div>     
+         <img src="img/haber24.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p style="color:cadetblue; font-weight: bold; ">Flaman Hükümeti Başbakan Yardımcısı, Bilim ve Ekonomi Bakanı Hilde Crevits, kişisel Twitter hesabından bu açıklamayı paylaşarak, "Zekice ve çığır açan bir adım" olarak değerlendirdi. Ancak bu konuda kat edilecek daha uzun yol bulunduğunu söyledi.
+
+</p>
+     <div class="progress">
+    <div class="progress-bar bg-dark" style="width: 100%">%100</div>
+           <div class="progress-bar bg-danger" style="width: 0%">%0</div>
+          
+    </div>     
+            
+
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        
+         <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"> <button type="button" class="btn" data-toggle="modal" data-target="#firstmodal3"> <img src="img/haber3.jpg" style="background-color: beige; "> <p style="background-color: darkred; color: white;">KORONAVİRÜS</p> </button> <div class="modal fade" id="firstmodal3">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title"><u>Corona virüsü tedavisi</u> <u>son dakika</u> haberi: Lamalar koronavirüs tedavisinde kullanılacak!<u>Corona virüs</u>tedavisinde yeni umut</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p style="color:cadetblue; font-weight: bold; ">Tüm dünyayı etkisi altına alan corona virüsü salgına ilişkin <u style="color: black;">son dakika</u> haberleri gelmeye devam ederken özellikle tedavi ve aşı çalışmaları yakından takip ediliyor. Araştırmacılar Covid-19 salgınına yönelik tedavi çalışmalarını araştırmayı sürdürürken son olarak Belçikalı ve ABD'li bilim insanları deve ailesinin üyesi olan lamaların corona virüsü tedavisinde kullanılabileceğini belirtti. Corona virüsü bloke eden küçük bir parçaçık belirleyen bilim insanlarına göre; Kış (Winter) isimli bir lamanın <u>koronavirüs tedavisi </u>için yararlı olabileceği açıklandı. Aynı grup 2003 yılında yayılan SARS virüsüne ve 2012 yılındaki MERS virüsüne karşı koyabilecek antikorları da aramaya başlamışlardı. İşte corona virüsü tedavisinde son dakika gelişmeleri!</p>
+       
+    
+    <p style="color:black; font-weight: bold; ">Corona virüsü tedavisine yönelik <u>son dakika</u> gelişmeleri yakından takip edilirken bunlara bir yenisi daha eklendi. Belçikalı araştırmacı ekibin lideri <u>Xavier Saelens</u>, "Kış" isimli lamaya SARS ve MERS virüslerinin güvenli versiyonlarının verildiğini ve daha sonra kan örneklerinin alındığını açıkladı. Lamalar, standart antikorlar ve daha küçük antikorlar yaratmada diğer hayvanlardan ayrıştığı için özellikle seçildiği de belirtilenler arasında yerini aldı. İşte <u>corona virüsü tedavisi</u> son dakika gelişmeleri...</p> 
+    <img src="img/haber3.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <h2 style="color:cadetblue; font-weight: bold; "> CORONA VİRÜSÜ TEDAVİSİNDE UMUT VEREN GELİŞME!</h2>
+    
+    <p>Corona virüsü tedavisinde umut verici gelişme yaşandı. Belçikalı ve ABD'li bilim insanları deve ailesinin bir üyesi olan lamaların tedavide kullanılabileceğini söyledi.</p>
+    
+  
+    
+    
+   
+    
+    
+    
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        
+
+     </div>
+     
+ 
+     
+     <div class="row justify-content-center">
+                <div class="col-lg-4  col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal4"> <img src="img/haber4.jpg" style="background-color: beige;  "><p style="background-color: darkred; color: white;">VEBA</p>  </button> <div class="modal fade" id="firstmodal4">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Koyunda veba ve çiçek hastalığı alarmı </h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p style="color:black; font-weight: bold; ">Kırmızı et ihtiyacının karşılanması için umut bağlanan küçükbaş hayvancılıkta hastalık alarmı yaşandığı ifade edildi. 
+ </p>
+       
+    
+    <p style="color:black; ">Tarım ve Orman Bakanlığı'nın küçükbaş hayvancılığın geliştirilmesi amacıyla uyguladığı 'Üretici Şartlarında Sözleşmeli Küçükbaş Hayvancılık Projesi' ve 'Genç Çiftçi Projesi' kapsamında hayvan dağıtımları mercek altına alındığı ileri sürüldü.<br>
+Özellikle, Genç Çiftçi Projesi kapsamında geçmişte yapılan koyun ithalatının hastalığın kaynağı olduğu iddia edilirken, sektör temsilcileri koyun vebası ve çiçek hastalığının bu iki proje uygulanmadan önce de zaman zaman ortaya çıktığını ifade ediyor. Tarım İşletmeleri Genel Müdürlüğü ise, hayvanların ithalatla temin edilmesi yerine yurt içinden karşılanması için Türkiye Damızlık Koyun Keçi Yetiştiricileri Merkez Birliği ile protokol imzaladı. 
+ </p> 
+    <img src="img/haber4.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <h2 style="color:black; font-weight: bold; ">HASTALIK İTHAL KOYUNLARLA MI GELDİ? 
+ </h2>
+    
+    <p>Dünya gazetesi yazarı Ali Ekber Yıldırım'ın yazısına göre, CHP Tarımdan Sorumlu Genel Başkan Yardımcısı ve Bursa Milletvekili Orhan Sarıbal, Bursa'da 'Genç Çiftçi Projesi' kapsamında 50 üreticiye 1700 koyun dağıtıldığını belirterek, koyunların dağıtımından 10-15 gün sonra ölümlerin başladığını ve 50 koyunun öldüğünü söyledi. Yaptıkları incelemelerde ölümlerin koyun vebasından olduğunu vurgulayan Sarıbal, vebanın genç çiftçi projesi kapsamında ithal edilerek dağıtılan koyunlardan bulaştığını iddia etti. Sarıbal, koyunlarla birlikte hastalığın da ithal edildiğini öne sürerek insan ve hayvan sağlığının tehdit altında olduğunu ifade etti. 
+ </p>
+    
+        
+         <h2 style="color:black; font-weight: bold; ">ZONGULDAK'TA VEBA KARANTİNASI</h2>
+        
+         <p>Zonguldak'ın Alaplı İlçesi Gümeli beldesinde bir üreticinin koyunlarında görülen veba hastalığı nedeniyle belde 21 günlük karantinaya alındı. Anadolu Ajansı'nın haberine göre, Alaplı ilçesine bağlı Gümeli beldesinde bir üreticiye ait 2 küçükbaş hayvanda koyun vebası görüldü. Veteriner hekimlerin çabalarına rağmen iyileşmeyen hayvanlar için Alaplı İlçe Tarım ve Orman Müdürlüğü'ne bilgi verildi. Koyunlardan alınan örnekler Ankara'daki Merkez Veteriner Kontrol Araştırma Enstitüsü Laboratuvarı'nda incelendikten sonra veba olduğu tespit edildi. Bulaşma riski nedeniyle belde 3 haftalığına karantinaya alındı. Hayvanlar aşılandı ve beldeye hayvan giriş çıkışı yasaklandı. 
+</p>
+        
+        <h2 style="color:black; font-weight: bold; ">DENİZLİ'DE ÇİÇEK HASTALIĞI</h2>
+        
+          <p>Küçükbaş hayvan yetiştiriciliğinin yaygın olduğu illerden biri olan Denizli'de ise çiçek hastalığı görüldü. Denizli Çivril'de Kocakaya Mahallesi'nde bir besicilik işletmesinde koyun-keçi çiçek hastalığı görüldü.<br>
+Genç Çiftçi Projesi kapsamında hibe alarak besicilik yapan Mehmet Ali-Tuğba Erdoğdu çiftine ait işletmede görülen hastalık nedeniyle işletme karantinaya alındı. Çivril Belediyesi ise hastalığın yayılmaması için Çivril Hayvan Pazarı'nı 3 haftalığına kapatıldığını duyurdu. İhlas Haber Ajansı'nın bölgeden verdiği habere göre, Genç Çiftçi Projesi ile besiciliğe başlayan ve İŞKUR tarafından verilen engelli hibe desteğiyle sürüsünü büyüten Tuğba Erdoğdu, Tarım ve Orman İlçe Müdürlüğüne başvurarak yardım istedi.<br>
+Erdoğdu, koyunları kuzulamaya başladıktan sonra mahallede ortaya çıkan çiçek hastalığı yüzünden her gün bir koyununun ölmeye başladığını dile getirdi. Hibe yoluyla alınan hayvanların üç yıl boyunca devlet kontrolünde olduğunu belirten besici Tuğba Erdoğdu "Ölen hayvanın yerine yenisini alıyorum üç gün sonra o da ölüyor. Hayvanlar, TARSİM tarafından sigortalı. Ölümler başlayınca müracaat ederek durumu bildirdik ama bize ‘çiçek hastalığı kapsam dışında' dediler. Her gün bir koyunum ölüyor. Elimden hiçbir şey gelmiyor" dedi. 
+ </p>
+        
+        
+       <h2 style="color:black; font-weight: bold; "> KOYUN İTHAL EDİLMEYECEK</h2>
+  <p>Türkiye Damızlık Koyun Keçi Yetiştiricileri Merkez Birliği Yönetim Kurulu Başkanı Nihat Çelik, küçükbaş hayvanlarda görülen hastalığın sadece genç çiftçi veya 300 koyun projesine bağlanmasının doğru olmadığını belirterek Dünya'ya şu bilgileri verdi:<br>
+- Büyükbaş hayvanlarda olduğu gibi küçükbaş hayvanlarda da zaman zaman hastalıklar görülüyor. Bunu uygulanan projelere bağlamak doğru değil. Biz birlik olarak 300 koyun projesinde başından beri görev aldık.Bu proje kapsamında 30 bin koyun dağıttık ve bir tek koyun ithal edilmedi. Türkiye'nin ithalata ihtiyacı var mı? Damızlık materyalinde elit sürülerden temin etmek şartıyla ithalata ihtiyacı var. Fakat biz birlik olarak bunu yapmadık. Biz ithalata karşıyız. Romanya'dan,Bulgaristan'dan ithalat yapılmasına karşıyız. Ayrıca döviz artışı nedeniyle geçen yazdan bu yana ithalat yapılamıyor. Hastalık şimdi çıkmış. Genç çiftçi projesindeki koyun temininde düne kadar biz yoktuk. Ama biz olmadık diye kimseyi suçlayamayız. Yanlışlar yapılmış olabilir. Önemli olan bunları tespit ederek sektöre zarar vermeden ilerlemektir. TİGEM ile bir protokol yaptık. Genç Çiftçi Projesi kapsamında ihtiyaç olan küçükbaş hayvanları yurt içinden temin edeceğiz. Bir tek ithal koyun vermeyeceğiz. 
+</p> 
+        
+        
+    
+   
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+         <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"> <button type="button" class="btn" data-toggle="modal" data-target="#firstmodal5"> <img src="img/haber5.jpg" style="background-color: beige;"><p style="background-color: darkred; color: white;">KORONAVİRÜS</p>  </button> <div class="modal fade" id="firstmodal5">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Doktorun çarpıcı açıklamaları gündem oldu! SON DAKİKA HABERİ: Corona virüsten daha ölümcül bir salgın geliyor...</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"> <p style="color:black; font-weight: bold; ">Tüm dünyayı etkisi altına alan corona virüsü salgını ile ilgili son dakika gelişmeleri yakından takip edilirken bunlara bir yenisi daha eklendi. Doktor, önümüzdeki süreçte corona virüsünde çok daha kötü ve ölümcül bir virüsün dünyaya yayılacağını iddia etti. Rusya'da koronavirüs pandemisi izleme merkezinin sözcüsü olan doktor, dünyanın ileri bir tarihte şu anda etkili olan koronavirüsten daha ölümcül bir salgının olacağını belirtti. Yüzde 30 ile 35 oranında ciddi bir salgın beklediğini öngören Rus doktor Aleksandr Myasnikov öte yandan koronavirüsü kapma olasılığının en yüksek olduğu alanların hastaneler olduğunu da sözlerine ekledi. İşte son dakika haberine ilişkin ayrıntılar!</p>
+       
+
+    <img src="img/haber5.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p>Tüm dünya corona virüsü salgını ile mücadele ederken son dakika haberleri ve açıklamaları da peş peşe geliyor. Bunlara son olarak doktorun söyledikleri damga vurdu. Tüm dünyanın koronavirüsten daha kötü ve ölümcül bir salgınla yüzleşeceğini iddia ederken tehlikenin durumunu da gözler önüne serdi. Öte yandan dünyanın bu salgına daha iyi hazırlanması için yardım edeceğini açıklarken Rusya koronavirüs pandemisi izleme merkezinin sözcücü doktor Aleksandr Myasnikov, corona virüsü kapma olasılığının en yüksek olduğu yerin hastaneler olduğunu da sözlerine ekledi.</p>
+    
+  
+    
+   <h2 style="font-weight: bold;" >DOKTORUN İDDİALARI GÜNDEME OTURDU!</h2>
+    
+    <p>Corona virüsü salgınından daha ölümcül bir salgının dünyayı beklediğini açıklayan doktorun iddiaları gündeme oturdu. "Hepimiz yüzde 30-35 ölüm oranlı ciddi bir salgın bekliyoruz" öngörüsünde bulunan Myasnikov, koronavirüs ile ilgili mevcut durumun dünyaya yeni salgına daha iyi hazırlanması için yardım edeceğini kaydetti.
+
+</p>
+    
+
+  
+    
+    
+    
+    
+    
+    
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+         
+         <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal6"> <img src="img/haber6.jpg" style="background-color: beige; "> <p style="background-color: darkred; color: white;">KORONAVİRÜS</p> </button> <div class="modal fade" id="firstmodal6">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+       <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Doktorun çarpıcı açıklamaları gündem oldu! SON DAKİKA HABERİ: Corona virüsten daha ölümcül bir salgın geliyor...</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"> <p style="color:black; font-weight: bold; ">Tüm dünyayı etkisi altına alan corona virüsü salgını ile ilgili son dakika gelişmeleri yakından takip edilirken bunlara bir yenisi daha eklendi. Doktor, önümüzdeki süreçte corona virüsünde çok daha kötü ve ölümcül bir virüsün dünyaya yayılacağını iddia etti. Rusya'da koronavirüs pandemisi izleme merkezinin sözcüsü olan doktor, dünyanın ileri bir tarihte şu anda etkili olan koronavirüsten daha ölümcül bir salgının olacağını belirtti. Yüzde 30 ile 35 oranında ciddi bir salgın beklediğini öngören Rus doktor Aleksandr Myasnikov öte yandan koronavirüsü kapma olasılığının en yüksek olduğu alanların hastaneler olduğunu da sözlerine ekledi. İşte son dakika haberine ilişkin ayrıntılar!</p>
+       
+
+    <img src="img/haber6.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p>Tüm dünya corona virüsü salgını ile mücadele ederken son dakika haberleri ve açıklamaları da peş peşe geliyor. Bunlara son olarak doktorun söyledikleri damga vurdu. Tüm dünyanın koronavirüsten daha kötü ve ölümcül bir salgınla yüzleşeceğini iddia ederken tehlikenin durumunu da gözler önüne serdi. Öte yandan dünyanın bu salgına daha iyi hazırlanması için yardım edeceğini açıklarken Rusya koronavirüs pandemisi izleme merkezinin sözcücü doktor Aleksandr Myasnikov, corona virüsü kapma olasılığının en yüksek olduğu yerin hastaneler olduğunu da sözlerine ekledi.</p>
+    
+  
+    
+   <h2 style="font-weight: bold;" >DOKTORUN İDDİALARI GÜNDEME OTURDU!</h2>
+    
+    <p>Corona virüsü salgınından daha ölümcül bir salgının dünyayı beklediğini açıklayan doktorun iddiaları gündeme oturdu. "Hepimiz yüzde 30-35 ölüm oranlı ciddi bir salgın bekliyoruz" öngörüsünde bulunan Myasnikov, koronavirüs ile ilgili mevcut durumun dünyaya yeni salgına daha iyi hazırlanması için yardım edeceğini kaydetti.
+
+</p>
+    
+
+  
+    
+    
+    
+    
+    
+    
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        
+
+     </div>
+     
+     
+   <div class="row ">
+                <div class="col-lg-3 col-md-6 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal7"> <img src="img/haber7.jpg" style="background-color: beige;"> <p style="background-color: darkred; color: white;">KORONAVİRÜS</p> </button> <div class="modal fade" id="firstmodal7">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Koronavirüs: Vahşi hayvanlar daha sessiz bir dünyanın keyfini çıkarıyor</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body">  <img src="img/haber7.jpg" style="background-color: beige; width: 460px; height: 300px">
+ <p style="color:black; font-weight: bold; ">Koronavirüs kısıtlamaları küresel olarak vahşi hayvanlara her zaman yaşayamadıkları nadir bir şans olan hayatlarını 'en az insanla' deneyimleme olanağını sağlıyor.</p>
+       
+    
+    <p> Yerleşim yerlerindeki hayvanlar boş sokakları ve yolları keşfediyor, yolda karşılaştıkları insanları keyiflendiriyor.<br>
+
+Bunların pek çoğu eşsiz, benzersiz görüntüler olmasa da, koronavirüs nedeniyle yapılan kısıtlamalar hayvanlara şehirlerimizin daha içlerine girip bir süre kalmak için gereken güveni verdi.<br>
+
+Bazıları doğal koruma alanları ve parkların kendilerine kalmasının keyfini çıkarırken yetkililer ise turistlerin yokluğunda vahşi yaşamda bir artış bildiriyor.<br>
+
+İstanbul Boğazı normalde dünyanın en kalabalık, işlek deniz yollarından biri.<br>
+        Büyük tankerler, kargo gemileri ve yolcu botları şehri yarıya kesen boğazdan 24 saat geçiş yapılıyor.<br>
+
+Ancak şimdi koronavirüs kısıtlaması nedeniyle trafikte oluşan kesinti ve balıkçıların evlerinde kalmasıyla, yunuslar sularda yüzüp, oynuyor.<br>
+
+Yunusları uzaktan suda yüzerken görmek çok sıra dışı değil. Ancak şehir sakinlerinin paylaştıkları videolarda yunusların çok daha yakın yüzüp kıyıya yaklaşmaktan çekinmedikleri görülüyor.<br>
+
+Geçmişte yunusları fotoğraflayan bir gemi gözlemcisinin AFP'ye dediğine göre "kıyı şeridindeki kontrolsüz balıkçıların dehşeti geçici olarak durduğundan yunuslar" suyun kenarına yaklaşıyor.<br>
+
+İsrail gazetesi Haaretz ''Hayfa sakinleri eve kapanırken yaban domuzları kontrolü ele aldı'' başlığı kullandı.<br>
+
+Şehir sakinleri ''Yaban domuzları salgından önce de Hayfa şehrinde yiyecek bulmak için geziyorlardı fakat insanların yokluğu onları daha da cesaretlendirdi'' diyor.</p> 
+    <img src="img/haber7foto2.jpg" style="background-color: beige; width: 460px; height: 300px">
+    <p>Bu durum yerel yetkililere Zoom üzerinden genişleyen nüfus hakkında bir toplantı yaptıracak ciddiyete ulaştı.<br>
+
+Hayvanlar hakkında sıkı önlemler alınmasını savunan Yaron Hanan, Reuters'a ''Koronavirüs geçtikten sonra bile yaban domuzlarının her gün, her saat gelmeye alışmış olmalarından korkuyorum'' şeklinde yorum yapıyor.<br>
+
+Yine de bazı hayvanlar önceleri kalabalık, meşgul olan doğal koruma alanlarının veya parkların şimdiki tenhalıklarından memnun.<br>
+
+Arnavutluk'ta ülkenin batı sahil şeridi boyu lagünlerde pembe flamingolar ortaya çıkmaya başladı.<br>
+
+Park yetkilileri sayılarının 3.000'e yükseldiğini söyledi.
+<br>
+Binlerce flamingonun Afrika ve Güney Akdeniz'den uçtuktan sonra çiftleşmek için gittikleri Narta Lagünü'nün suları üzerinde uçtukları görülüyor.
+
+</p>
+       
+   <img src="img/haber7foto3.jpg" style="background-color: beige; width: 460px; height: 300px">      
+        <p>Yakındaki zeytin ağaçları ve deri işleme fabrikalarının suyu kirletmekle suçlanıp kapanması ve 500 metrelik yolların tıkanmasına neden olan trafiğin yokluğu ile kuşlar için sessiz bir ortam yaratıldı.<br>
+
+Vlora koruma alanının başı Nexhip Hysolakoj, çiftlerin lagünün daha iç taraflarına taşındıklarını ve birbirlerine kur yaptıklarını aktardı.<br>
+
+Divjaka Ulusal Park'ında ise 85 çift kıvırcık tüylü pelikan yuva yapıyor. Her zamanki aylık 50.000 turist şu an uzak tutulup, yetkililerin yakın zamanda nüfus artışında patlama yaşamaları için gerekli sessiz ortamı sağlıyorlar.<br>
+
+Tayland'da 30 üyeli bir dugong (Denizineği takımından memeli hayvan) sürüsü, turizmin durduğu Hat Chao Mai Ulusal Park'ında yüzerken kameraya yakalandı.
+<br>
+Dugong aynı zamanda bir denizineği olarak biliniyor, korunmasız, hassas bir tür olarak sınıflanır ve genellikle balık ağları veya su kirliliğine kurban düşerler.<br>
+
+Ulusal park Facebook üzerinden geniş balık ve envai çeşit diğer türün videolarını paylaşıp, burada salgından beri vahşi yaşam konusunda bir canlanma olduğunu kaydediyor.<br>
+
+Bununla birlikte yeni maceraların tadını çıkaran bazı hayvanlar etrafta çok üzün süre kalamıyor.<br>
+
+Birkaç puma Şili'nin Santiago şehir sokaklarında gezerken görüntülendiler. Hayvanlar yakalanıp sonra doğal alanlarına salındılar.</p>
+        
+        <img src="img/haber7foto4.jpg" style="background-color: beige; width: 460px; height: 300px">   
+        
+        <p>Büyük kedilerden biri apartman kompleksi içinde bulundu.<br>
+
+Şili'nin ulusal hayvancılık ve tarım hizmetleri müdürü Horacio Bórquez, hayvanlar hakkında ''Daha az ses hissedip, yemek bulmak için yeni yerler keşfediyorlar. Bazıları şehirler içinde kayboluyorlar.'' açıklamasını yaptı.</p>
+        
+       <h2> Llandudno'nun ünlü Keşmir keçilerini kim unutabilir?</h2>
+        <p>Geçen ay Galler'deki terk edilmiş kasabanın keyfini çıkardılar ve sonra hızlıca kaçtılar. Bazıları hatta bahçe çiçeklerini ve çitleri bile yedi.<br>
+
+Fakat her canlı koronavirüs kısıtlamalarından faydalanmıyor.</p>
+        
+        <img src="img/haber7foto5.jpg" style="background-color: beige; width: 460px; height: 300px">  
+        <p>Avrupa'da güvercinler açlık riskiyle karşı karşıya, bu durum Almanya'daki hayvan hakları gruplarını harekete geçirdi.<br>
+
+Bunun nedeni hayvanları normal şartlarda besleyen insanların kısıtlama nedeniyle eve kapanmış halde olmaları. Grup, güvercinlerin pek çok şehir için bir sorun olduğunu kabul ederken, yine de acılı bir ölüme terk edilmemeleri gerektiğini belirtiyor.<br>
+
+Krakow, Polonya'da bir hayvanları koruma organizasyonu özellikle terk edilen sürüleri beslemek için dışarı çıkıyor.</p>
+        
+   
+   
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        <div class="col-lg-3 col-md-6 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal8"> <img src="img/haber8.jpeg" style="background-color: beige;"><p style="background-color: darkred; color: white;">VEBA</p>  </button> <div class="modal fade" id="firstmodal8">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Veba Doktorları Neden Garip Gagalı Maskeler Takıyordu?</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"> <p>17. yüzyılda insanlar bu kıyafetlerin zehirli havayı arındırdığına inanıyorlardı. Ancak bu pek doğru değildi.</p>
+        <img src="img/haber8foto1.jpeg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p> 17. yüzyıl Avrupa salgını sırasında doktorlar, hastalıklardan kurtulmak için gagalı maskeler, deri eldivenler ve uzun paltolar giydiler. 1656 yılından bir Roma doktoru çizimi. C: Alamy<br>
+Veba, bir zamanlar dünyanın en korkulan hastalığıydı, görünüşte durdurulamaz küresel salgınlarda yüz milyonlarca insanı yok edebilirdi ve kurbanlarını ağrılı şişmiş lenf yumruları, kararmış cilt ve diğer korkunç semptomlara maruz bırakabiliyordu.<br>
+
+17. yüzyıl Avrupa’sında, veba kurbanlarına bakan doktorlar, o zamandan beri uğursuz tonlara bürünmüş bir kostüm giyiyorlardı: kendilerini kafalarından ayaklarına kadar örtüyor ve kuş benzeri uzun bir gagası olan maske takıyorlardı. Gagalalı veba maskelerinin arkasındaki neden, tehlikeli hastalığın doğası hakkındaki yanlış bir fikirdi.<br>
+      Bu dönemde hıyarcıklı veba salgınları sırasında, hastalığın yakaladığı kasabalar, hem zengin hem de fakir sakinler için veba doktorlarını işe aldı. Bu doktorlar, koruyucu karışımlar ve veba panzehirleri olduğuna inanılanları reçeteler yazdılar, vasiyetlere şahit oldular ve otopsiler yaptılar. Bazıları bunları yaparken gagalı maskeler taktı.<br>
+
+Kostüm genellikle 17. yüzyılda birçok Avrupa kraliyetinin tıbbi ihtiyacını karşılayan bir doktor olan Charles de Lorme’ye atfediliyor. Bu kraliyet insanları arasında Kral Louis XIII ve Marie de Médici’nin oğlu Gaston d’Orléans da vardı.<br>
+
+Lorme’nin tarifine göre kıyafet; kokulu balmumu ile kaplı bir ceket, botlara bağlı pantolonlar, sıkıştırılmış bir gömlek ve keçi derisinden yapılmış bir şapka ve eldiven içeriyordu. Veba doktorları ayrıca kurbanları dürtmelerine (veya savuşturmaya) yardım eden bir sopa taşıyordu.<br>
+
+Ancak özellikle kafalarına giydikleri şeyler alışılmadıktı: Veba doktorları gözlük takıyordu ve burnu 15 cm uzunluğunda, gaga şeklinde, burun deliklerinin yanında iki deliği olan parfümle dolu birer maske takıyordu. Ancak bu maske, nefes almak ve otların etkisini hava ile birlikte taşımak için yeterliydi.<br>
+
+Avrupa’daki veba doktorları bu kıyafetleri giymesine rağmen, İtalya’da bu görüntü o kadar ikonikti ki, “veba doktoru” İtalyan commedia dell’arte ve karnaval kutlamalarının bir parçası haline geldi ve bugün hala popüler bir kostüm.   
+         
+
+         </p> 
+    <img src="img/haber8.jpeg" style="background-color: beige; width: 460px; height: 300px">
+    
+         <p>Venedikliler şehrin karnavalını kutlamak için veba doktorları gibi giyiniyorlar. Bu yıl, koronavirüs ile ilgili endişeler nedeniyle etkinliğin son iki günü iptal edildi. C: Getty<br>
+Ancak bu korkutucu kostüm sadece ölümcül bir moda ifadesi değildi: Doktoru kirli havadan korumak için tasarlanmıştı. Hastalık yapıcı mikrop teorisi’nden önceki zamanlarda, doktorlar vebanın bir kişinin huyunda veya vücut sıvılarında dengesizlik yaratabilecek zehirli hava yoluyla yayıldığına inanıyordu. Tatlı ve keskin parfümlerin veba kaynaklı bölgeleri dezenfekte edebildiği ve burnu koruyabildiği düşünülüyordu; çiçekler, tütsü ve diğer parfümler bu çağda yaygındı.<br>
+
+Veba doktorları maskelerini, 55’ten fazla bitkiden, engerek eti tozundan, tarçın, mür ve bal gibi diğer bileşenlerden oluşan bir macun olan tiryak ile dolduruyordu. Lorme, maskenin gaga şeklinin, veba doktorlarının burun deliklerine ve akciğerlerine gelmeden önce havaya koruyucu bitkiler tarafından kaplanması için yeterli zaman vereceğini düşündü.<br>
+         Aslında veba, hayvanlardan insanlara ve pire ısırıkları yoluyla, kontamine sıvı veya doku ile temas ve hapşırma veya öksürme yoluyla bulaşabilen bakteriler olan Yersinia pestis’ten bulaşır.<br>
+
+Nedeni en nihayetinde ortaya çıkmadan önce üç korkunç veba salgını insanlığa korkunç tecrübeler yaşattı: MS 561 civarında günde 10.000 kadar insanı öldüren Jüstinyen Vebası, 1334 ve 1372 yılları arasında Avrupalıların üçte birine kadarını yok eden ve 1879’a kadar aralıklı salgınlarla devam eden Kara Ölüm ve 1894-1959 yılları arasında Asya’nın büyük bölümünü öldüren Üçüncü Pandemi.<br>
+
+Sonuç olarak veba doktorlarının kıyafetleri ve yöntemleri çok fazla bir fark yaratmadı. Veba doktorları hemen tanınabilse de, hastalık yapıcı mikrop teorisi ve modern antibiyotiklerin yükselişine kadar, kostümleri hastalığa karşı gerçek bir koruma sağlamadı.</p>
+         
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        <div class="col-lg-3 col-md-6 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal9"> <img src="img/haber9.jpg" style="background-color: beige;"><p style="background-color: darkred; color: white;">ANTONINE VEBASI</p>  </button> <div class="modal fade" id="firstmodal9">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Roma, Ölümcül Antonine Vebasından Ne Öğrendi?</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"> <p> MS 165 yılında başlayan salgın, COVID-19’dan çok daha ölümcül olmasına karşın imparatorluk bundan kurtulmuştu.</p>
+        <img src="img/haber9.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p>Jules-Elie Delaunay’ın Roma’da MS 165’te yaşanan salgın sırasında kapıdaki ölüm meleğini betimlediği eserinin Levasseur’e ait gravür uygulaması. C: Wikimedia Commons<br>
+MS 165 civarında Anadolu kenti Hierapolis’te, insanların ürkütücü semptomlara sahip yeni bir bulaşıcı hastalıktan korunması umuduyla tanrı Apollon Aleksikakos’un (Kötülükleri Defeden) bir heykeli dikildi. Hastalığa yakalananlar ateş, titreme, kusma ve yaklaşık bir haftada kırmızıdan siyaha dönen ishalden yakınıyorlardı. Ayrıca vücutlarının iç ve dışında kabuk bağlayan ve çirkin izler bırakan korkunç görünümlü siyah kabarcıklar beliriyordu.<br>
+
+En kötü durumdakilerde vücut içindeki yara kabuklarını öksürük ya da dışkıyla atmak olağandı.  Kurbanlar, sonunda hastalık gerileyinceye kadar iki hatta üç hafta bu şeklide acı çekiyorlardı. Roma İmparatorluğu’nda yaşayan 75 milyonun belki de yüzde onu iyileşemedi. Dönem yazarlarından biri hastalığın tıpkı bir canavar gibi sadece birkaç kişiye değil, tüm şehirlere saldırarak onları yok ettiğini yazmıştı.<br>
+
+Çiçek hastalığı Roma’yı vurmuştu.<br>
+
+Bulaşıcı hastalık uzun zamandır Romalıların hayatının bir parçasıydı. En zengin Romalılar bile mikrop teorisi, soğutma ya da temiz suyun olmadığı bir dünyanın salgınlarından kaçamazlardı. Sıtma ve bağırsak hastalıkları yayılmıştı. Ancak Romalıların karşı karşıya kaldığı bazı hastalıklar hayret vericiydi – şiddetli ateşler, yok edici hastalıklar ve iyileşmeyi reddeden çürümüş yaralarda yaşayan kurtlar.<br>
+        Tıp doktoru Galenus, bir Romalı seçkinin hizmetçisinin kamu çeşmesinden çektiği suyla birlikte yanlışlıkla sülük yuttuğunu anlatır. Dördüncü yüzyıl imparatoru Iulianus, tüm hayatında sadece bir kez kusmuş olmakla övünmüştür. Eski çağ standartlarında bu bir çeşit mucizeydi.<br>
+
+Ancak çiçek hastalığı farklıydı. Roma’da çiçek salgını öncelikle doğudan gelen korkutucu bir söylenti olarak başladı. Ölüm ve virüsün kendisine dair haberlerin iletildiği konuşmalarla kulaktan kulağa yayılmıştı. Bulaştığı kişilerde yaklaşık iki hafta sonra ilk belirtileri görülen hastalık sinsice yayıldı.<br>
+
+Salgının yayılması ve ardından gerilemesi bir nesil sürdü. Hastalık 189 yılında zirve yaptığında kalabalık Roma kentinde günde 2000 kişinin öldüğü anlatılır. Çiçek hastalığı Roma toplumunun büyük kesimini perişan etmişti. Salgın imparatorluğun ordusunu öyle kırıp geçirmişti ki seferler iptal edilmişti. Aristokrasiyi öyle yerle bir etmişti ki kent meclisi toplanmakta zorlanıyordu. Yerel yönetim görevleri yerine getirilemiyor ve kamu faaliyetleri görevli eksikliğinden dolayı başarısız oluyordu. Köylülere öylesine zarar vermişti ki kırsal bölgelerde terk edilen çiftlikler ve nüfusu azalan kasabalar Mısır’dan Almanya’ya sıralanıyordu.<br>
+
+Psikolojik etkileri daha da derindi. Öğretmen Aelius Aristides, 160’larda salgının ilk yıllarında ölümden dönmüştü. Aristides, tanrıların kendisi yerine seçtiği genç bir erkeğin ölümüyle kurtulduğuna inanmıştı. Hatta genç kurbanın kimliğini bildiğini söylüyordu. Sağ kalma suçluluğunun modern bir olgu olmadığını söylemek gereksiz. İkinci yüzyıl sonlarında Roma İmparatorluğu bu suçluluk hissiyle doluydu.<br>
+
+En önemlisi, salgının yaydığı korkuydu. Çiçek hastalığı kitlelerin korkunç bir şekilde ve dalgalar halinde ölümüne neden oldu. Romalılar arasındaki korku öylesine belirgindi ki bugün, eski imparatorluk bölgelerinde çalışan arkeologlar umutsuzca öldürücü hastalıktan korunmak isteyenlerin dualarını kazıdığı muskalar ve küçük taşlar bulmaya devam ediyorlar.<br>
+
+Çiçek salgını sürerken imparatorluğun direnci şaşırtıcıydı. Romalıların salgına verdikleri ilk tepki tanrılardan yardım dilemek olmuştu. Hierapolis’te olduğu gibi Roma dünyasındaki birçok kent Apollon’a temsilciler göndermiş ve tanrıdan nasıl hayatta kalacaklarını öğrenmek istemişlerdi. Kentlerin temsilcileri gruplar halinde göndermeleri, bireysel korkular arasında toplulukların birlikteliğinin gücüne güvenmelerinin doğrulanmasıydı.
+
+        
+        </p> 
+    <img src="img/haber9foto1.jpg" style="background-color: beige; width: 460px; height: 300px">
+ 
+    <p>Sagalassos Antik Kenti’nde bulunan Marcus Aurelius heykeli. C: Arkeofili<br>
+Topluluklar güçten düşmeye başladıklarındaysa Romalılar onlara destek çıkıyordu. İmparator Marcus Aurelius çok sayıda askerin ölümüne, köle ve gladyatörleri birliklere atayarak karşılık vermişti. Terk edilen çiftlikleri ve nüfusu azalan kentleri imparatorluk dışından çağırdığı göçmenlerle doldurmuştu. Çok sayıda aristokratını kaybeden kentler yerlerini doldurmaya çalışıyorlardı. Hatta meclislerdeki bazı mevkileri özgür bırakılan kölelerin oğullarına veriyorlardı. İmparatorluk, görülmemiş ölçüdeki ölüm ve korkuya rağmen yaşamaya devam etti.<br>
+
+Roma toplumu çiçek hastalığının etkilerinden öyle başarılı şekilde kurtulmuştu ki, 1600 yıldan uzun bir zaman sonra tarihçi Edward Gibbon destansı Roma İmparatorluğunun Gerileyiş ve Çöküş Tarihi (Decline and Fall of the Roman Empire) eserine Marcus Aurelius dönemindeki salgınla değil, imparatorun ölümünden sonraki olaylarla başlar.<br>
+        Gibbon’a göre Marcus’un yönetimi “dünya tarihinde insan ırkının en mutlu ve refah içinde olduğu dönem”di. Antonine Vebası olarak adlandırılacak hastalıkla boğuştukları günlerde bu tarihi yargıyı duysalardı Romalılar çok şaşırırlardı. Ancak bu düşünceyi Gibbon keşfetmedi. Üçüncü yüzyılın başlarında yazan Romalı senatör ve tarihçi Cassius Dio, Marcus yönetiminde “olağanüstü zorluklar içinde” direnen imparatorluğu “altın krallığı” olarak adlandırır.<br>
+
+Cassius Dio korkunç ölümler yaşanırken Roma’da çiçek hastalığının etkilerine tanık olmuştu. Dio salgının dehşetini ve tahribini görmüştü. Ayrıca iyi yönetilen bir toplumun iyileşme ve yeniden yapılanma için birlikte çalışmasıyla böylesi bir salgının yarattığı travmanın da üstesinden gelinebileceğine inanıyordu. Bu çabalarla ortaya çıkan toplum da öncesinden çok daha güçlü olurdu.<br>
+
+Dünyamızın büyük kısmı kolayca yayılan ve ölümcül bir bulaşıcı hastalığın ani, beklenmedik ve sürekli korkusuyla ilk kez COVID-19 ile karşı karşıya geldi. Böylesi bir kriz korkmuş vatandaşların birbirini suçlamasına neden olabilir. Var olan sosyal ve ekonomik ayrımların iyice belirginleşmesine neden olabilir. Hatta toplumları yok edebilir. Ancak böyle olmak zorunda değil.<br>
+
+Antonine Vebası COVID-19’dan çok daha ölümcüldü ve bunu yaşayan toplum hastalarını kurtarma konusunda bizim sahip olduğumuz güce sahip değildi. Buna rağmen Roma ayakta kaldı. Hastalıktan kurtulanlar ise toplum ve yönetimin gücünü kanıtladığı salgın günlerini garip bir özlemle anıyorlardı.
+<br>
+Biz de bu kadar şanslı olalım.</p>
+    
+    
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        
+          <div class="col-lg-3 col-md-6 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal10"> <img src="img/haber10.jpg" style="background-color: beige; "><p style="background-color: darkred; color: white;">KARA ÖLÜM</p>  </button> <div class="modal fade" id="firstmodal10">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Venedik’te Kara Ölüm ve Karantinanın Doğuşu</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p> Arkeolojik araştırmalar, 700 yıl önce Venedik’te salgın karşısında nasıl tepki verildiğini ve buradaki karantina tarihini gün yüzüne çıkarıyor.</p>
+         <img src="img/haber10.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p>Venedik’ten bir manzara, Giovanni Antonia Canal çizimi. (Görsel: Wikimedia Commons)
+Düzinelerce adadan oluşan Venedik şehrinin kıyılarının hemen ötesinde, zengin bir tarihe sahip iki ıssız ada bulunuyor. Bugün bu kara kütlelerindeki manzara, otlardan, ağaçlardan ve tahrip olmuş taş binalardan oluşuyor. Fakat bir zamanlar bu iki ada, tarihsel öneme sahip bu şehrin en önemli giriş kapısı olarak görülüyordu.<br>
+
+Lazzaretto Vecchio ve Lazzaretto Nuovo olarak bilinen adalar, şimdi Venedik’in tarihteki en ünlü salgınlardan birine karşı verdiği tepkiler hakkında bize muhteşem bilgiler sunuyor. 14. yüzyılın ortalarında, Kara Ölüm olarak bilinen ve Avrupa’da 25 milyon insanı (veya nüfusun üçte birini) öldürmüş olan bu hastalığın bir parçası olan bubonik (hıyarcıklı) veba Venedik halkını vurmuştu. Bu, daha sonraki yüzyıllarda Kuzey İtalya’yı vuracak olan birçok veba salgını dalgasından sadece biriydi.<br>
+         Venedik, ticaret merkezi olduğu için daha savunmasızdı. Lazzaretto Nuovo’yu araştıran disiplinlerarası ekipte yer alan ve kendisi de Venedikli olan dilbilimci Francesca Malagnini, “Tek çözümün insanları ayırmak, hasta veya hasta olduğundan şüphelenilen insanları uzaklaştırmak olduğunu gördüler,” diyor. “Bu insanların sağlığını korumanın ve ekonominin devamını sağlamanın tek yoluydu.”<br>
+
+15. yüzyılın başlarından itibaren, Lazzaretto Vecchio adası vebalı Venediklileri izole etmek ve tedavi etmek için kullanıldı. Daha sonra, Lazzaretto Nuovo ise veba salgını yaşanan yerlerden gelen, hasta yolcuları veya mürettebatı olduğundan şüphelenilen gemilerin demir attığı bir nokta haline geldi. Bu adada insanlar ve mallar, şehrin kalbine girmelerine izin verilmeden önce, bir süre karantinada kaldılar. (“Karantina” kelimesini İtalyanca 40 gün anlamına gelen quaranta giorni kelimesine borçluyuz.)<br>
+
+Bu adalar, Venedik’in vebaya karşı oluşturduğu geniş halk sağlığı önlemlerinin merkezini oluşturuyordu. Hastaları sağlıklılardan ayırma konusunda eski gelenekler üstüne kurulan Venedik, Akdeniz bölgesinde bulaşıcı hastalıkları izleyen ve bunlarla mücadele etmek için sistematik olarak büyük ölçekli izolasyon ve bilgi toplama yöntemleri kullanan ilk hükümet oldu.<br>
+
+O zamanlar bilimin hastalıkların nasıl yayıldığını açıklayamadığı göz önüne alındığında, bu çaba daha da etkileyiciydi. Öyle ki, hastalık yapıcı mikrop teorisi (germ theory) ancak 400 yıl sonra ortaya atılacaktı.<br>
+         Dünyadaki çoğu insanın Kovid-19 salgını yüzünden karantina, izolasyon ve evde kalma tedbirleri altında olduğu ve birçok belirsizlikle karşı karşıya kaldıkları bugünlerde, Venedik’in karantina geçmişi ve izolasyon hastanelerinin arkeolojisi özel bir önem taşıyor. Araştırmacıların bulguları, özellikle halk sağlığı, politika ve ekonominin kesiştiği noktalarda, günümüz deneyimlerinde de yankı buluyor.<br>
+
+Venedik şehir kayıtlarında, Lazzaretto adalarının hikayesi uzun zamandır korunmakta. 1423 yılında hükümet, vebalı insanları barındırmak için daha sonralar Lazzaretto Vecchio olarak adlandırılan adayı inşa ettiler ve 1468’de bir hükümet kararıyla daha sonra manastıra ev sahipliği yapacak olan “Lazzaretto Nuovo” adlı ikinci bir ada, isminin tam anlamını vererek (İtalyanca “yeni hastane” anlamına geliyor), yeni bir izolasyon hastanesi için tahsis edildi. </p> 
+  
+           <img src="img/haber10foto1.jpeg" style="background-color: beige; width: 460px; height: 300px">
+     <p>Venedik’te veba tedavisi uygulayan doktorlar, gösterişli gaga maskeleri kullandılar. (Görsel: Museo Correr / Wikimedia Commons)<br>
+Vecchio, üzerinde çalışmaları için arkeologlara birçok bina ve yapı sunuyor. Bu yapılar, adanın enfekte hastalar için bir tedavi üssü olduğunu gösteriyor. Orada, dönemin gösterişli gaga benzeri veba maskeleri giyen doktorlar, hastalığı tedavi etmek için ellerinden geleni yaptılar.<br>
+
+Nuovo’dan geriye kalan yapılar ise çok az. Ancak tarihsel kayıtlar Nuovo’nun, Venedik’e girmelerine izin verilmeden önce malları tutmak ve 100’den fazla odanın denizcileri ve mürettebatını karantinaya almak için kullanıldığı depolardan oluştuğunu gösteriyor. 16. yüzyıl tarihçisi Francesco Sansovino, Nuovo’nın bu binalarının “bir kale görünümü” yarattığını yazmıştı.<br>
+         Kemerli kapılarla kaplı, tepesinde kubbeli bir çatısı ile, uzun dikdörtgen bir tuğla bina olan en büyük depo Tezon Grande hala yerinde duruyor. Tarihsel kayıtlara göre, silahlı muhafızlar ve hamallardan oluşan bir ekip, gemilerin yükünü bu alana boşaltmak için çalışmışlardı. Malagnini, “Çok çalışıyorlardı ve şehrin sağlığını korumak için kendi hayatlarını riske atıyorlardı.” diyor.<br>
+
+Bu ekip, bazı özel yöntemler ile buranın güvenliğini sağlıyorlardı. Bunlardan biri, malları deniz suyu ve aromatik bitkilerin dumanıyla havalandırmak ve temizlemekti. Kontamine olabileceği düşünülen eşyaları kullandıktan sonra ellerini yıkamak için sirke kullanıyorlardı.<br>
+
+Trieste Üniversitesi’nde antik liman kentlerini inceleyen bir profesör olan Daniele Andreozzi, “[Şehir yetkilileri] sağlığı garanti edemezlerse, ticaretin ve mal akışının mümkün olmadığını biliyorlardı” diyor.<br>
+
+Bu karantina sistemi işlerken, çok sayıda şehir yetkilisi çalışıyordu. Bundan önce, halk sağlığı, hayırseverlerin ve din görevlilerinin yetkisi altındaydı.<br>
+
+Bu, felakete geçici bir yanıt değildi, daha ziyade, general Napolyon Bonapart’ın bölgeyi 1797’de fethetmesine kadar sürmüş, hükümet tarafından yürütülen, sürekli ve kalıcı bir gözetim çabasıydı. Bu yöntem gerekliydi, çünkü bubonik veba, yüzyıllar boyunca Avrupa’yı tekrar tekrar bozguna uğrattı.<br>
+
+Şehir yönetiminin dikkatliliğine rağmen, tüm nüfusu gözetim altında tutmak zordu. 18. yüzyılda Venedikli bir sağlık görevlisi, “Veba hangi gemide olduğunu belli etmek için uyarı göndermiyor” diye yazdı. Yetkililer, her karavanı veya kaçakçıyı kontrol edemedi veya potansiyel olarak enfekte olmuş kişilerin katıldığı tüm kutlamaları durduramadı, diyor Andreozzi.<br>
+
+Buna ek olarak, yetkililer vebanın nasıl yayıldığı konusunda derin tıbbi veya bilimsel bilgiye sahip değildi. Örneğin bakteriye maruz kalma ile semptomların ortaya çıkması arasındaki zaman dilimi hakkında bir anlayışları yoktu.<br>
+
+Sonuç olarak, bazı uzmanlar Venedik’teki bu sistemin salgınların boyutunu ve sıklığını sınırladığına inansa da, veba en erken 17. yüzyıla kadar Venedik’i vurmaya devam etti. Özellikle 1630’daki büyük bir dalga, Venedik ve Bologna’daki nüfusun yaklaşık üçte birini öldürdü.<br>
+
+Arkeologlar, son yirmi yılda keşfedilen her iki adada toplu mezarlar üstünde araştırmalar yaparak Venedik sisteminin sınırları hakkında içgörü ediniyorlar. Liverpool John Moores Üniversitesi’nde adli antropolog ve öğretim görevlisi olan Matteo Borrini, Nuovo’da bulunan yaklaşık 200 iskeleti inceledi ve araştırdı.
+
+</p>    
+         
+        <img src="img/haber10foto2.jpg" style="background-color: beige; width: 460px; height: 300px">    
+         <p>Bu kapı, Lazzaretto Vecchio adasındaki izolasyon hastanesinin ana girişiydi.<br>
+Borrini, hastaların genellikle Vecchio’ya gönderildiğini söylüyor. Bununla birlikte, Nuovo’daki kalıntılara göre, veba şehre ulaştığında Venedik o kadar zor durumda kalmıştı ki, tıp görevlileri hasta insanları ve hastalıktan ölenleri Lazzaretto Nuovo’ya da göndermişlerdi.<br>
+
+Yeni cesetler eklemek için Lazzaretto Nuovo’daki mezarların birçok kez açıldığını, “lazanya gibi üst üste konulduklarını” söylüyor Borrini. En önemlisi de mezarlar, vebanın kimseye acımadığını gösteriyor.<br>
+
+Kemikler üzerinde yapılan bir araştırma kurbanların beslenmelerine dair ipuçları sunuyor. Bazı kalıntılar, çok fazla et tüketen insanlara aitti, bu seçenek o zamanlar sadece varlıklı Venedikliler için mümkündü. Diğer ölenler, balık ve sebze yönünden zengin orta sınıf yemekleriyle ziyafet çekmişlerdi. Geriye kalanlar ise genellikle yoksul sınıfı yemeği olan tahılla beslenmişlerdi.<br>
+
+Borrini, “Bir salgın pek çok açıdan gerçekten demokratik bir olay” diyor. “Veba az ya da çok herkesi aynı oranda öldürebilir, bu yüzden mezarlıkta o zamanki Venedik toplumunun resmini kolayca görebilirsiniz.”<br>
+
+Plague Hospitals: Public Health for the City in Early Modern Venice kitabının yazarı Jane L. Stevens Crawshaw, her ne kadar kusurları olsa da, Venedik’in karantina tarihinden kalıcı dersler çıkarabileceğimizi söylüyor. “Öyle ki, kozmopolit bir ticaret merkezinde bulaşıcı hastalıktan kaçmanın ne kadar zor olduğunu gösteriyor.” diyor.<br>
+
+Bununla birlikte, Venedik’in deniz karantinası, gelen göçmenleri karantinaya alan Amerikan karantina hastanelerini etkileyerek hem İtalya’ya hem de dünyanın diğer bölgelerine bir model oldu. Gerçekten, Crawshaw, Venedik’in yaklaşımının hükümetin vatandaşlarını rahatlatmanın bir yolu olduğunu belirtiyor.
+
+</p>
+         
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+
+     </div>
+     
+     
+      <div class="row justify-content-center">
+                <div class="col-lg-4  col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal11"> <img src="img/haber11.jpeg" style="background-color: beige; "><p style="background-color: darkred; color: white;">KORONAVİRÜS</p>  </button> <div class="modal fade" id="firstmodal11">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Koronavirüs: Geçmiş Salgınlardan Ne Öğrenebiliriz?</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"> <p> Birinci Dünya Savaşı sonrasında ortaya çıkan ve 50 milyon insanı öldüren bir grip salgını, Covid-19 hakkında bize ne öğretebilir?</p>
+         <img src="img/haber11.jpeg" style="background-color: beige; width: 460px; height: 300px">
+         <p>İtalya’nın ünlü antik yapılarından Kolezyum, koronavirüs nedeniyle sessiz. C: AFP<br>
+Yüz yıl önce, yaklaşık 20 milyon insanı öldüren küresel bir savaştan kurtulan dünya, aniden daha ölümcül bir şeyle uğraşmak zorunda kaldı: grip salgını.<br>
+
+İspanyol gribi olarak bilinen pandeminin, Batı Cephesi’nde sıkışık ve kalabalık ordu eğitim kamplarında başladığı düşünülüyor. Sağlıksız koşullar – özellikle Fransa sınırındaki siperlerde – üremesine ve daha sonra yayılmasına neden olmuştu.<br>
+         Savaş Kasım 1918’de sona erdi, ancak askerler eve döndüklerinde, virüsü beraberinde getirdiler ve daha da büyük bir yaşam kaybı tehlikesi baş gösterdi: 50 milyon ile 100 milyon arasında insanın öldüğü düşünülüyor.<br>
+
+O zamandan beri dünya birçok salgın hastalık yaşadı (aralarında en az üç ciddi grip salgını), ancak hiçbir salgın, bunun kadar ölümcül ya da geniş kapsamlı değildi.<br>
+
+Dünya, yeni bir koronavirüsün neden olduğu Covid-19 salgınına karşı savaşırken, yakın tarihin en yıkıcı hastalıklarından biri olan İspanyol Gribi’nden neler öğrendiğimize bir göz atalım.</p>
+         
+          <img src="img/haber11foto1.jpg" style="background-color: beige; width: 460px; height: 300px">
+      <p> İspanyol gribi salgını sırasında bir hastane.</p> <br>
+<h3>Genellikle öldüren şey zatürreydi</h3>
+
+  <p> Covid-19’dan ölen insanların çoğu, bağışıklık sistemi virüsle savaşmaktan zayıfladıkça ortaya çıkan bir zatürre biçimine yenik düşüyor.<br>
+
+Bu durum, Covid-19’un İspanyol gribi ile ortak özelliği, ancak Covid-19’un ölüm oranı İspanyol gribinden çok daha düşük. Şimdiye kadar hastalık tarafından öldürülenlerin çoğunu oluşturan yaşlı insanlar ve bağışıklık sistemi zayıf olanlar, zatürreye neden olan enfeksiyonlara karşı daha hassastı. </p> 
+         
+       <img src="img/haber11foto2.jpg" style="background-color: beige; width: 460px; height: 300px">   
+         
+         <p>İspanyol gribi sırasında maske takan insanlar.</p><br>
+<h3>Kaçmak için birkaç yer</h3>
+
+  <p>İspanyol gribi yaşanırken hava yolculuğu henüz başlangıç aşamasındaydı. Ancak dünyada bu hastalığın korkunç etkilerinden kurtulan birkaç yer var.<br>
+
+Hastalığın dünyadaki yayılımı daha yavaştı, uçaklar yerine demiryolu ve yolcu vapuru tarafından taşınıyordu. Grip gelmeden ve korkunç etkilerini göstermeden önce bazı yerler aylarca, hatta yıllarca direnmişti.<br>
+         Ancak bazı yerler, genellikle 100 yıl sonra hala kullanılmakta olan temel teknikleri kullanarak, gribi uzak tutmayı başardı. Alaska’da Bristol Körfezi’ndeki bir topluluk, gripten neredeyse hiç zarar görmeden kaçtı. Okulları kapattılar, halka açık toplantıları yasakladılar ve ana yoldan köye erişimi kapattılar. Bu önlemler, bugün Çin’in Hubei eyaleti ve kuzey İtalya gibi bazı bölgelerde, koronavirüs yayılmasını durdurmak için kullanılan seyahat kısıtlamalarının düşük teknolojili bir versiyonuydu.</p>
+         
+         <img src="img/haber11foto3.jpg" style="background-color: beige; width: 460px; height: 300px">  
+         
+       <p>İspanyol Grip salgını sırasında da maskeler çok talep görüyordu. C: Getty</p><br>
+<h3>Farklı virüsler farklı popülasyonları hedefler</h3>
+
+ <p>Doktorlar İspanyol Gribi’ni “tarihteki en büyük tıbbi soykırım” olarak tanımladılar. Sadece çok insan öldürdüğü gerçeği yüzünden değil, kurbanlarının çoğu genç ve sağlıklıydı. Normalde, sağlıklı bir bağışıklık sistemi griple oldukça iyi başa çıkabilir, ancak bu versiyon o kadar hızlı bir şekilde etkiliyordu ki, bağışıklık sistemini bozarak, sitokin fırtınası olarak bilinen aşırı reaksiyona neden oluyor, akciğerleri sıvıyla doldurarak ikincil enfeksiyonlar için mükemmel rezervuar haline getiriyordu.<br>
+
+İlginç bir şekilde yaşlı insanlar, muhtemelen 1830’larda insan popülasyonları yoluyla yayılmaya başlayan çok benzer bir grip suşundan kurtuldukları için bu kadar duyarlı değildi.<br>
+
+Yeni koronavirüs ile, yaşlılar ve önceden mevcut hastalıkları olan insanlar en riskli olarak kabul ediliyor. Hâlâ düşük olmasına rağmen, ölümler 80 yaş üstü kişilerde daha yüksek görülüyor.</p>
+
+          <img src="img/haber11foto4.jpg" style="background-color: beige; width: 460px; height: 300px">  
+         
+         
+         <p>Koronavirüs nedeniyle Louvre Müzesi de kapandı.</p><br>
+<h3>Halk sağlığı, en iyi savunma biçimi</h3>
+
+ <p>İspanyol gribi, küresel savaştan yeni çıkmış bir dünyada patlak verdi ve bu dönemde hayati kamu kaynakları, askeri çalışmalara aktarılıyordu. Halk sağlığı sistemi fikri, henüz başlangıç aşamasındaydı; birçok yerde, sadece orta sınıf veya zenginler bir doktora gitmeyi karşılayabilirdi.<br>
+
+Grip, gecekondu mahallelerinde ve diğer yoksul kentsel alanlarda, yetersiz beslenme ve temizlik alanlarına sahip popülasyonlar arasında ve genellikle altta yatan sağlık koşulları olanlarda çok sayıda insanı öldürdü.<br>
+
+Bilim insanları ve hükümetler, salgınların geçmişte olduğundan daha hızlı yayılacağını fark ettikçe grip, gelişmiş dünyada halk sağlığı sistemlerinin gelişimini teşvik etti.<br>
+
+İnsanları olay bazında tedavi etmek, kentsel ortamlarda salgın ile başa çıkmak için yeterli olmayacak. Hükümetler, sanki savaştaymış gibi kaynakları seferber etmek, hastalığın belirtilerini gösterenleri karantinaya almak, küçük vakaları daha ciddi hastalıktan muzdarip olanlardan ayrı tutmak ve hastalığın kendisini yok etmesi için insanların hareketlerini sınırlamak zorunda.<br>
+
+Bugün koronavirüsün yayılmasını kontrol altına alma çabaları kapsamında dünya genelinde yürürlükte olan halk sağlığı önlemleri, İspanyol gribi’nin en kalıcı etkilerinden biri.</p>
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+         <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal12"> <img src="img/haber12.jpg" style="background-color: beige;"><p style="background-color: darkred; color: white;">VEBA</p>  </button> <div class="modal fade" id="firstmodal12">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title"> Londra’da Metro Kazısından 3000 Veba Kurbanı Çıktı</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p> Arkeologlar, metro hattı kazısı sırasında Londra’nın ilginç tarihine ışık tutacağına inandıkları 3000 iskeleti barındıran bir toplu mezar buldular.  Mezardaki iskeletler 1569 ila 1738 yılları arasına tarihleniyor ve hepsi “kara ölüm” kurbanı. Çıkarılan iskeletlere yapılacak olan testlerin, vebanın bakteriyel evrimini ortaya koyabileceği düşünülüyor.</p>
+     <img src="img/haber12.jpg" style="background-color: beige; width: 460px; height: 300px">   
+    
+    <p> 60 arkeologdan oluşacak ekip, iskeletleri dikkatli bir şekilde dökümantasyonunu yaparak çıkartabilmek için haftanın altı günü çalışacak ve Londra’nın 16. Ve 17. Yüzyıllarda kullanılmış, en değerli mezarlığı hakkında bilgi toplamaya çalışacak.<br>
+
+Ray hattının baş arkeoloğu Jay Carver, bu kazının 16. Ve 17. Yüzyıllarda Londralıların hayatını ve ölümlerini anlayabilmek için eşsiz bir fırsat sunduğunu belirtti. Carver sözlerine şöyle devam etti: “Bedlam mezarlık alanı, şehrin Tudor Dönemi’nden erken modern kozmopolit yapıya geçisi de dahil olmak üzere Londra tarihini kapsıyor.”<br>
+
+Mezarlık önümüzdeki dört hafta boyunca kazılacak ve ortaya çıkarılan iskeletlerin yaşları, cinsiyetleri, boyları araştırılabilecek. Daha sonra ise arkeologlar Ortaçağ bataklık tabakasını ve Roma kalıntılarını kazacak. Bölgedeki kazıların Eylül ayına kadar sürmesi bekleniyor.</p> 
+   
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+         
+         <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal13"> <img src="img/haber13.jpg" style="background-color: beige;  "><p style="background-color: darkred; color: white;">KORONAVİRÜS</p>  </button> <div class="modal fade" id="firstmodal13">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Koronavirüs tedbirleri kapsamında 81 ilde uygulanan sokağa çıkma kısıtlaması sona erdi.</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body">    <img src="img/haber13.jpg" style="background-color: beige; width: 460px; height: 300px"><p>İçişleri Bakanlığının genelgesiyle, arife günü başlayan ve 81 ilde Ramazan Bayramı boyunca uygulanan sokağa çıkma kısıtlamasına yurt genelinde genel itibarıyla uyuldu.<u style="color: red;"> Sokağa çıkma kısıtlaması</u> kapsamında ihlalde bulunan 47 bin 831 kişi hakkında ise adli ya da idari işlem yapıldı.   </p>
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        
+
+     </div>
+     
+     
+     
+       <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal14"> <img src="img/haber14.jpg" style="background-color: beige;  "><p style="background-color: darkred; color: white;">KORONAVİRÜS</p>  </button> <div class="modal fade" id="firstmodal14">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title"> Müjde! Domuz Gribi aşısını ilk bulan grup Koronavirüs ilacını buldu. Seri üretime geçiliyor</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"> <p> Çin’de klinik denemelere başlamasına onay verilen dört laboratuvardan Sinovac Biotech, çok beklenen ilacı bulduklarını düşünüyor.</p>
+        <img src="img/haber14.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    <p> Her ne kadar bu aşı henüz kendisini kanıtlamış olma da, bu özel grup virüse karşı yılda 100 milyon doz aşı üretmeye hazır olduğunu duyurdu.<br>
+
+Grup, ilaç konusunda emin konuşuyor. 2009 yılında da <strong>H1N1</strong> domuz gribine karşı piyasaya ilk ilacı süren grup yine Sinovac <strong>Biotech</strong> olmuştu.</p> 
+   
+    
+    <h4 style="font-weight: bold; "> MAYMUNLARDA DENENDİ</h4>
+    
+    <p>AFP’nin haberine göre Pekin banliyösündeki büyük yerleşkelerinde çalışmalar yürüten grup, “Coronavac” olarak adlandırdıkları bu aşının maymunlarda cesaret verici sonuçlar ortaya çıkardığını ve Nisan ortasında doğudaki Jiangsu’da 144 gönüllüye de uygulandığını belirtti. Şimdiye kadar klinik testlerde iki aşama yürütüldü.<br>
+
+2001 yılında kurulan laboratuvar, geliştirdikleri aşının ne zaman ticarileştirilebileceğine ilişkin herhangi bir tarih vermedi. Herkesin merak ettiği tarih henüz bir yanıt bulmuş değil. Dünya Sağlık Örgütü’ne göre bir aşının üretimi 12 ila 18 ay alabilir.<br>
+
+Bin dolayında kişiyi çalıştıran Sinovac ise Haziran sonunda üretimin güvenliği konusunda ilk sonuçları almayı umuyor. Bu denemelerin sadece aşının insan için tehlikeli olmadığını incelemek için olduğu belirtiliyor. Etkili olduğundan emin olmak için, virüs taşıyıcıları üzerinde üçüncü aşama için denemeler yapmak gerekecek.</p>
+    
+           
+           
+             <h4 style="font-weight: bold; ">YURTDIŞINDA TESTLER ÖNGÖRÜLÜYOR</h4>
+          <p> Ancak burada bir sorun öne çıkıyor. Çin’de resmi verilere göre her gün sadece bir kaç yeni vaka tespit ediliyor. Eğer ikinci bir dalga gelmezse, Çinli grubun yurt dışında testleri pozitif çıkanlar üzerinde denemeyi gerçekleştirmesi gerekecek. Zira, üçüncü aşama binlerce kişi üzerinde test yapılmasını kapsıyor. Herhangi bir ülkede gönüllü olarak böyle bir sayıya ulaşmak zor görünüyor. Grup, bir çok Avrupa ve Asya ülkesi ile temas halinde olduklarını belirtiyor.</p>
+           
+           
+           
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+         <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal15"> <img src="img/haber15.jpg" style="background-color: beige;  "><p style="background-color: darkred; color: white;">EBOLA</p>  </button> <div class="modal fade" id="firstmodal15">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title"> Kongo'da Ebola'dan ölenlerin sayısı 600'ü geçti</h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><p>Kongo Sağlık Bakanlığı ülkede Ebola virüsü nedeniyle hayatını kaybedenlerin sayısının 600'ü aştığını açıkladı.</p>
+        <img src="img/haber15.jpg" style="background-color: beige; width: 460px; height: 300px">
+    
+    
+    <p> Demokratik Kongo Cumhuriyeti'nin doğusunda Ebola virüsü nedeniyle hayatını kaybedenlerin sayısı 600'ü aştı. Kongo'nun başkenti Kinşasa'da bulunan Sağlık Bakanlığı'ndan pazartesi günü yapılan açıklamada Ağustos ayından bu yana 603 kişinin yaşamını yitirdiği, 314 kişinin ise iyileştiği kaydedildi. Söz konsu rakamlar Ebola olduğu kesinleşen 538 vaka ile şüpheli 65 vakaya ait.<br>
+
+Bakanlık Ağustos ayı başından bu yana 89 binden fazla kişinin aşılandığını, bunun büyük ihtimalle binlerce kişinin hayatını kurtardığını kaydetti.<br>
+
+Bu, Ebola virüsünün ilk tespit edildiği 1976 yılından beri Kongo'da ortaya çıkan onuncu Ebola salgını. Ancak bu kez virüsün görüldüğü bölge silahlı grupların tekrarlayan saldırıları altında olduğu için, virüsle mücadelede büyük zorluk yaşanıyor.<br>
+
+Ebola tedavi merkezlerine düzenlenen iki saldırının ardından Sınır tanımayan Doktorlar örgütü, ay başında Katwa ve Butembo'daki çalışmalarını sona erdirdi.<br>
+
+2013 yılında büyük bir Ebola salgını Batı Afrika ülkelerinde etkili olmuştu. Takip eden aylarda Gine, Sierra Leone ve Liberya'da yaklaşık 11 bin 300 kişi virüs nedeniyle yaşamını yitirmişti.<br>
+
+Virüsle enfekte kişilerin vücut sıvılarıyla doğrudan temas yoluyla bulaşan Ebola, yüksek bulaşıcılık oranlarına ve mortaliteye sahip.</p> 
+   
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+        
+
+     </div>
+     
+
+    
+     
+     
+     
+     
+     
+         <div class="row justify-content-center">
+                 <div class="col-lg-12 col-md-12 col-sm-12"style="text-align: center;"><button type="button" class="btn" data-toggle="modal" data-target="#firstmodal16"> <img src="img/haber16.webp" style="background-color: beige; "><p style="background-color: darkred; color: white;">KOLERA</p>  </button> <div class="modal fade" id="firstmodal16">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+        
+        
+        <div class="modal-header">
+            <h1 class="modal-title">Dünya Sağlık Örgütü (DSÖ), Yemen'de yaklaşık 113 bin kişinin kolera salgınına yakalanmış olma ihtimalinin bulunduğunu açıkladı. </h1>
+            <buton type="button" class="close" data-dismiss="modal">&times;</buton>
+            </div>
+        <div class="modal-body"><img src="img/haber16.webp" style="background-color: beige; width: 460px; height: 300px">
+ <p>DSÖ Yemen Ofisi, yaptığı açıklamada, ocak ayından bu yana Yemen'de şüpheli kolera vakalarının sayısının yaklaşık 113 bin olduğunu duyurdu. <br>
+
+Vakalardan 56'sının laboratuvardaki araştırmalarla kesinleşmiş olduğu, 29 kişinin kesin ölüm sebebinin kolera olduğunun doğrulandığı kaydedildi. <br>
+
+ Açıklamada, DSÖ'nün 138 merkezi ishal ve 58 merkezi susuzluk tedavisi için desteklediği bildirildi. <br>
+
+DSÖ, ishal ve susuzluğun koleranın en bariz belirtileri arasında yer aldığına işaret etti. </p>
+       
+    
+            </div>
+        <div class="modal-footer">
+            <buton type="button" class="btn btn-danger" data-dismiss="modal">Kapat</buton>
+            
+            
+            </div>
+        </div>
+   
+        </div>
+   
+    </div>
+    </div>
+     </div> 
+          
+          
+          
+          
+         </div>  
+   
+    
+    
+   <div class="row">    
+       <div class="col-lg-6 col-md-6 col-sm-12" >
+     <div class="bg-img" style="background-color: azure;">
+ <form action="/action_page.php" class="container">
+ <h1 style="color:white; text-align: center;">Gelişmelerden Haberdar Olmak İçin Kayıt Ol</h1><br>
+ <label for="email" style="color:white;"><b>E-mail</b></label>
+ <input type="text" placeholder="E-mail Giriniz" name="email" required><br>
+ <label for="psw" style="color:white;"><b>Şifre</b></label>
+ <input type="password" placeholder="Şifre Giriniz" name="psw" required><br>
+ <button type="submit" class="btn" style="background-color: red; color:white;">Gönder</button>
+ </form>
+</div>
+           </div>
+        <div class="col-lg-6 col-md-6 col-sm-12" style=" color:black; text-align: center; background-image: url(img/t.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 10px 10px 10px 10px;"><br><br>
+              
+             <a href="covid19.html" class="btn btn-outline-danger">COVID-19 İle İlgili Bilgilenmek İçin Tıklayınız.</a> <br><br>
+               <a href="justinyenvebasi.html" class="btn btn-outline-primary">Tarihteki Salgınlar İle İlgili Bilgilenmek İçin Tıklayınız.</a> <br> <br>
+             <a href="videolar.html" class="btn btn-outline-success">Videolara Ulaşmak İçin Tıklayınız.</a>  <br><br>
+             <a href="sss.html" class="btn btn-outline-info" >SSS Ulaşmak İçin Tıklayınız.</a>  
+            
+            
+              
+              
+              
+              
+              
+              
+              
+    </div>
+       
+       
+       
+       
+  </div>      
+        
+        
+        <br>
+ 
+
+ 
+       <div class="d2 fixed-bottom"; style="text-align: end;">
+
+       <a href="#" class="btn" style="background-color: red; color:white;">Yukarı↑</a>
+
+
+
+        </div>
+    </div>
+     <div class="p-3 bg-dark" >
+               <h4><div class="text-center">©2020. All rights reserved. Design by | <strong style="color:white;">Zeynep</strong></div></h4>
+			 </div>
+   
+  
+    
+    
+    
+    </body>
+</html>
